@@ -29,7 +29,7 @@
                     <a href="./pages/contact.html" class="list-group-item list-group-item-action">CONTACT</a>
                     <a href="./pages/blog.html" class="list-group-item list-group-item-action">BLOG</a>
                     <a href="{{ route('about') }}" class="list-group-item list-group-item-action {{ isActiveRoute('about') }}">ABOUT US</a>
-                    <a href="./pages/apply-now.html" class="list-group-item list-group-item-action">APPLY NOW</a>
+                    <a href="{{ route('apply-now') }}" class="list-group-item list-group-item-action {{ isActiveRoute('apply-now') }}">APPLY NOW</a>
                     <a href="./pages/refer.html" class="list-group-item list-group-item-action">REFER</a>
                     <a href="./pages/legal.html" class="list-group-item list-group-item-action">LEGAL</a>
                 </div>

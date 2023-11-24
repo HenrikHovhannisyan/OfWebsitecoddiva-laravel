@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {return view('index');})->name('index');
 Route::get('/about', function () {return view('pages.about');})->name('about');
+Route::get('/apply-now', function () {return view('pages.apply-now');})->name('apply-now');
 
 Auth::routes();
 
