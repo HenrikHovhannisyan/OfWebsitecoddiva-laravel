@@ -25,4 +25,4 @@ Route::get('/legal', function () {return view('pages.legal');})->name('legal');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
