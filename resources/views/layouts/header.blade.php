@@ -30,8 +30,8 @@
                     <a href="{{ route('blog') }}" class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                     <a href="{{ route('about') }}" class="list-group-item list-group-item-action {{ isActiveRoute('about') }}">ABOUT US</a>
                     <a href="{{ route('apply-now') }}" class="list-group-item list-group-item-action {{ isActiveRoute('apply-now') }}">APPLY NOW</a>
-                    <a href="./pages/refer.html" class="list-group-item list-group-item-action">REFER</a>
-                    <a href="./pages/legal.html" class="list-group-item list-group-item-action">LEGAL</a>
+                    <a href="{{ route('refer') }}" class="list-group-item list-group-item-action {{ isActiveRoute('refer') }}">REFER</a>
+                    <a href="{{ route('legal') }}" class="list-group-item list-group-item-action {{ isActiveRoute('legal') }}">LEGAL</a>
                 </div>
             </div>
             <div class="home" style="background-image: url('./images/menu/HOME.png')">

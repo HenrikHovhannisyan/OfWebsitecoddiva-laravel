@@ -20,6 +20,8 @@ Route::get('/apply-now', function () {return view('pages.apply-now');})->name('a
 Route::get('/blog', function () {return view('pages.blog');})->name('blog');
 Route::get('/blog-item', function () {return view('pages.blog-item');})->name('blog-item');
 Route::get('/contact', function () {return view('pages.contact');})->name('contact');
+Route::get('/refer', function () {return view('pages.refer');})->name('refer');
+Route::get('/legal', function () {return view('pages.legal');})->name('legal');
 
 Auth::routes();
 
