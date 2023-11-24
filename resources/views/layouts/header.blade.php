@@ -26,7 +26,7 @@
                 </a>
                 <div class="list-group menu_list">
                     <a href="{{ route('index') }}" class="list-group-item list-group-item-action {{ isActiveRoute('index') }}" aria-current="true">HOME</a>
-                    <a href="./pages/contact.html" class="list-group-item list-group-item-action">CONTACT</a>
+                    <a href="{{ route('contact') }}" class="list-group-item list-group-item-action {{ isActiveRoute('contact') }}">CONTACT</a>
                     <a href="{{ route('blog') }}" class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                     <a href="{{ route('about') }}" class="list-group-item list-group-item-action {{ isActiveRoute('about') }}">ABOUT US</a>
                     <a href="{{ route('apply-now') }}" class="list-group-item list-group-item-action {{ isActiveRoute('apply-now') }}">APPLY NOW</a>
