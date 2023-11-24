@@ -21,13 +21,13 @@
     <div class="row">
         <div class="col-12 col-md-3 bg-white menu">
             <div class="">
-                <a href="./index.html">
-                    <img src="./images/logo.png" alt="">
+                <a href="{{ route('index') }}">
+                    <img src="{{ asset('./images/logo.png') }}" alt="">
                 </a>
                 <div class="list-group menu_list">
                     <a href="{{ route('index') }}" class="list-group-item list-group-item-action {{ isActiveRoute('index') }}" aria-current="true">HOME</a>
                     <a href="./pages/contact.html" class="list-group-item list-group-item-action">CONTACT</a>
-                    <a href="./pages/blog.html" class="list-group-item list-group-item-action">BLOG</a>
+                    <a href="{{ route('blog') }}" class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                     <a href="{{ route('about') }}" class="list-group-item list-group-item-action {{ isActiveRoute('about') }}">ABOUT US</a>
                     <a href="{{ route('apply-now') }}" class="list-group-item list-group-item-action {{ isActiveRoute('apply-now') }}">APPLY NOW</a>
                     <a href="./pages/refer.html" class="list-group-item list-group-item-action">REFER</a>
