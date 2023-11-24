@@ -34,7 +34,21 @@
                     <a href="{{ route('legal') }}" class="list-group-item list-group-item-action {{ isActiveRoute('legal') }}">LEGAL</a>
                 </div>
             </div>
-            <div class="home" style="background-image: url('./images/menu/HOME.png')">
+            @if(isActiveRoute('index'))
+                <div class="home" style="background-image: url('./images/menu/HOME.png')">
+            @elseif(isActiveRoute('contact'))
+                <div class="home" style="background-image: url('./images/menu/CONTACT.png')">
+            @elseif(isActiveRoute('blog') || isActiveRoute('blog-item'))
+                <div class="home" style="background-image: url('./images/menu/BLOG.png')">
+            @elseif(isActiveRoute('about'))
+                <div class="home" style="background-image: url('./images/menu/ABOUT.png')">
+            @elseif(isActiveRoute('apply-now'))
+                <div class="home" style="background-image: url('./images/menu/APPLY-NOW.png')">
+            @elseif(isActiveRoute('refer'))
+                <div class="home" style="background-image: url('./images/menu/REFER.png')">
+            @elseif(isActiveRoute('legal'))
+                <div class="home" style="background-image: url('./images/menu/LEGAL.png')">
+            @endif
                 <a href="">Instagram</a>
                 <a href="">Facebook</a>
                 <a href="">Pinterest</a>
