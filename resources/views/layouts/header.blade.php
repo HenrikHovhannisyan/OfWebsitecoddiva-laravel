@@ -25,10 +25,10 @@
                     <img src="./images/logo.png" alt="">
                 </a>
                 <div class="list-group menu_list">
-                    <a href="./index.html" class="list-group-item list-group-item-action active" aria-current="true">HOME</a>
+                    <a href="{{ route('index') }}" class="list-group-item list-group-item-action {{ isActiveRoute('index') }}" aria-current="true">HOME</a>
                     <a href="./pages/contact.html" class="list-group-item list-group-item-action">CONTACT</a>
                     <a href="./pages/blog.html" class="list-group-item list-group-item-action">BLOG</a>
-                    <a href="./pages/about.html" class="list-group-item list-group-item-action">ABOUT US</a>
+                    <a href="{{ route('about') }}" class="list-group-item list-group-item-action {{ isActiveRoute('about') }}">ABOUT US</a>
                     <a href="./pages/apply-now.html" class="list-group-item list-group-item-action">APPLY NOW</a>
                     <a href="./pages/refer.html" class="list-group-item list-group-item-action">REFER</a>
                     <a href="./pages/legal.html" class="list-group-item list-group-item-action">LEGAL</a>
