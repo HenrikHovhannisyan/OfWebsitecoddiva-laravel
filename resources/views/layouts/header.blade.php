@@ -28,7 +28,7 @@
         <div class="col-12 col-md-3 bg-white menu">
             <div class="">
                 <a href="{{ route('index') }}">
-                    <img src="{{ asset('./images/logo.png') }}" alt="">
+                    <img src="{{ asset('./images/logo.png') }}" width="108" alt="">
                 </a>
                 <div class="list-group menu_list">
                     <a href="{{ route('index') }}" class="list-group-item list-group-item-action {{ isActiveRoute('index') }}" aria-current="true">HOME</a>
