@@ -55,9 +55,9 @@
             @elseif(isActiveRoute('legal'))
                 <div class="home" style="background-image: url('./images/menu/LEGAL.png')">
             @endif
-                <a href="">Instagram</a>
-                <a href="">Facebook</a>
-                <a href="">Pinterest</a>
+                <a href="{{ $info->instagram }}" target="_blank">Instagram</a>
+                <a href="{{ $info->facebook }}" target="_blank">Facebook</a>
+                <a href="{{ $info->pinterest }}" target="_blank">Pinterest</a>
             </div>
         </div>
 

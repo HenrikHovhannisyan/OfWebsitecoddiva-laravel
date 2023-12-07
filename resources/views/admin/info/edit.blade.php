@@ -41,7 +41,7 @@
                         </div>
                         <div class="form-group">
                             <strong>Pinterest:</strong>
-                            <input type="text" name="instagram" value="{{ $info->pinterest }}" class="form-control"
+                            <input type="text" name="pinterest" value="{{ $info->pinterest }}" class="form-control"
                                    placeholder="Pinterest">
                         </div>
                         <div class="form-group">

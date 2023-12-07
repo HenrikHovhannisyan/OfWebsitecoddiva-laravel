@@ -1,21 +1,24 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InfoController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {return view('index');})->name('index');
-Route::get('/about', function () {return view('pages.about');})->name('about');
-Route::get('/apply-now', function () {return view('pages.apply-now');})->name('apply-now');
-Route::get('/blog', function () {return view('pages.blog');})->name('blog');
-Route::get('/blog-item', function () {return view('pages.blog-item');})->name('blog-item');
-Route::get('/contact', function () {return view('pages.contact');})->name('contact');
-Route::get('/refer', function () {return view('pages.refer');})->name('refer');
-Route::get('/legal', function () {return view('pages.legal');})->name('legal');
+Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/apply-now', [HomeController::class, 'applyNow'])->name('apply-now');
+Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
+Route::get('/blog-item', [HomeController::class, 'blogItem'])->name('blog-item');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/refer', [HomeController::class, 'refer'])->name('refer');
+Route::get('/legal', [HomeController::class, 'legal'])->name('legal');
+
 
 Auth::routes();
 
 Route::prefix('admin')->group(function () {
-    Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
+    Route::get('/', [AdminController::class, 'index'])->name('admin');
     Route::resource('info', InfoController::class);
 });

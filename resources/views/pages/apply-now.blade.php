@@ -11,7 +11,7 @@
                     “How To Make 1K Per Day With OF In The Next 48 Hours Or Less Starting Today...Guaranteed!”
                 </p>
                 <iframe width="100%" height="100%"
-                        src="https://www.youtube.com/embed/MhMkZKyihI4?si=Wl6aUbPRyiPO5VGE"
+                        src="https://www.youtube.com/embed/{{$info->video}}?si=Wl6aUbPRyiPO5VGE"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
                 </iframe>

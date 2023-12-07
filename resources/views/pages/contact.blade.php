@@ -11,13 +11,12 @@
                 <div class="mt-5">
                     <p class="text-white mb-0">Contact</p>
                     <p class="about_text">
-                        I'm available for local projects as well as potential employment opportunities.
-                        Use the form to inquire about rates and availability, or just to say hi.
+                        {{$info->contact}}
                     </p>
                     <p class="text-white mb-0">Phone</p>
-                    <p class="about_text">555-555-5555</p>
+                    <a href="tel:{{$info->phone}}" class="about_text">{{$info->phone}}</a>
                     <p class="text-white mb-0">Email</p>
-                    <p class="about_text">contact@example.com</p>
+                    <a href="mailto:{{$info->email}}" class="about_text">{{$info->email}}</a>
                 </div>
             </div>
             <div class="col-12 col-md-6">
