@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InfoController;
+use App\Http\Controllers\ModelsController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -21,4 +22,5 @@ Auth::routes();
 Route::prefix('admin')->group(function () {
     Route::get('/', [AdminController::class, 'index'])->name('admin');
     Route::resource('info', InfoController::class);
+    Route::resource('models', ModelsController::class);
 });
