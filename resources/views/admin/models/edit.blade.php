@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left">
-                    <h2>Edit Info</h2>
+                    <h2>Model Info</h2>
                 </div>
                 <div class="pull-right">
                     <a class="btn btn-primary" href="{{ route('models.index') }}"> Back</a>

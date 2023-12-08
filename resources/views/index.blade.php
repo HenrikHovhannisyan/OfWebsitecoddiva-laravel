@@ -6,26 +6,13 @@
         <h2 class="content_title mb-0">MODELS</h2>
         <span class="line bottom_line"></span>
         <div id="flexbox">
-            <div class="column">
-                <img src="./images/models/1.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/3.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/2.png" class="img-fluid" alt="Image"/>
-            </div>
-            <div class="column">
-                <img src="./images/models/4.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/3.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/3.png" class="img-fluid" alt="Image"/>
-            </div>
-            <div class="column">
-                <img src="./images/models/3.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/1.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/2.png" class="img-fluid" alt="Image"/>
-            </div>
-            <div class="column">
-                <img src="./images/models/3.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/4.png" class="img-fluid" alt="Image"/>
-                <img src="./images/models/3.png" class="img-fluid" alt="Image"/>
-            </div>
+            @foreach($models->chunk(ceil($models->count() / 4)) as $columnModels)
+                <div class="column">
+                    @foreach($columnModels as $model)
+                        <img src="{{ asset('upload/models/' . $model->image) }}" class="img-fluid" alt="Image"/>
+                    @endforeach
+                </div>
+            @endforeach
         </div>
     </div>
 @endsection

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Info;
+use App\Models\models;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 
@@ -16,7 +17,8 @@ class HomeController extends Controller
     public function index()
     {
         $info = Info::first();
-        return view('index', compact('info'));
+        $models = models::all();
+        return view('index', compact('info', 'models'));
     }
 
     public function about()
