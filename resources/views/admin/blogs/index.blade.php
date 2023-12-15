@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <a href="{{route("models.create")}}" class="btn btn-success">Add Blog</a>
+        <a href="{{route("blogs.create")}}" class="btn btn-success">Add Blog</a>
 
         @if ($message = Session::get('success'))
             <div class="alert alert-success">
@@ -21,8 +21,9 @@
         <table class="table table-bordered mt-3">
             <tr>
                 <th>No</th>
+                <th>Image</th>
                 <th>Title</th>
-                <th>Name</th>
+                <th>Views</th>
                 <th width="280px">Action</th>
             </tr>
 
@@ -33,12 +34,13 @@
                         <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" width="100px">
                     </td>
                     <td>{{ $blog->title }}</td>
+                    <td>0</td>
                     <td>
-                        <form action="{{ route('models.destroy',$blog->id) }}" method="POST">
-                            <a class="btn btn-success" href="{{ route('models.show',$blog->id) }}">
+                        <form action="{{ route('blogs.destroy',$blog->id) }}" method="POST">
+                            <a class="btn btn-success" href="{{ route('blogs.show',$blog->id) }}">
                                 <i class="fa-solid fa-eye"></i>
                             </a>
-                            <a class="btn btn-primary" href="{{ route('models.edit',$blog->id) }}">
+                            <a class="btn btn-primary" href="{{ route('blogs.edit',$blog->id) }}">
                                 <i class="fa-solid fa-pen-to-square"></i>
                             </a>
                             @csrf

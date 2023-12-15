@@ -42,18 +42,34 @@ class BlogsController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'blog_image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'blog_title' => 'required',
+            'blog_description' => 'required',
+            'image1' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'image2' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         $input = $request->all();
 
-        if ($image = $request->file('image')) {
-
+        if ($image = $request->file('blog_image')) {
             $destinationPath = 'upload/blogs/';
             $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
             $image->move($destinationPath, $profileImage);
-            $input['image'] = "$profileImage";
+            $input['blog_image'] = "$profileImage";
+        }
 
+        if ($image = $request->file('image1')) {
+            $destinationPath = 'upload/blogs/';
+            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
+            $image->move($destinationPath, $profileImage);
+            $input['image1'] = "$profileImage";
+        }
+
+        if ($image = $request->file('image2')) {
+            $destinationPath = 'upload/blogs/';
+            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
+            $image->move($destinationPath, $profileImage);
+            $input['image2'] = "$profileImage";
         }
 
         blogs::create($input);
