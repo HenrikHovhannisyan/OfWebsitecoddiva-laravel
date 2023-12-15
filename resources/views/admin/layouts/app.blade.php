@@ -42,10 +42,13 @@
                             <a class="nav-link" href="{{route('admin')}}">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('info.index')}}">Info</a>
+                            <a class="nav-link" href="{{route('blogs.index')}}">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('models.index')}}">Models</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('info.index')}}">Info</a>
                         </li>
                     </ul>
 
