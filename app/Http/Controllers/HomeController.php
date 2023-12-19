@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\blogs;
 use App\Models\Info;
 use App\Models\models;
 use Illuminate\Contracts\Support\Renderable;
@@ -35,8 +36,9 @@ class HomeController extends Controller
 
     public function blog()
     {
+        $blogs = blogs::all();
         $info = Info::first();
-        return view('pages.blog', compact('info'));
+        return view('pages.blog', compact('info', 'blogs'));
     }
 
     public function blogItem()

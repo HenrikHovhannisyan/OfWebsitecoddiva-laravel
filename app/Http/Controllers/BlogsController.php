@@ -51,25 +51,23 @@ class BlogsController extends Controller
 
         $input = $request->all();
 
-        if ($image = $request->file('blog_image')) {
+        if ($blogImage = $request->file('blog_image')) {
             $destinationPath = 'upload/blogs/';
-            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
-            $image->move($destinationPath, $profileImage);
-            $input['blog_image'] = "$profileImage";
+            $blogImageName = date('YmdHis') . '_' . uniqid() . "." . $blogImage->getClientOriginalExtension();
+            $blogImage->move($destinationPath, $blogImageName);
+            $input['blog_image'] = $blogImageName;
         }
 
-        if ($image = $request->file('image1')) {
-            $destinationPath = 'upload/blogs/';
-            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
-            $image->move($destinationPath, $profileImage);
-            $input['image1'] = "$profileImage";
+        if ($image1 = $request->file('image1')) {
+            $image1Name = date('YmdHis') . '_' . uniqid() . "." . $image1->getClientOriginalExtension();
+            $image1->move($destinationPath, $image1Name);
+            $input['image1'] = $image1Name;
         }
 
-        if ($image = $request->file('image2')) {
-            $destinationPath = 'upload/blogs/';
-            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
-            $image->move($destinationPath, $profileImage);
-            $input['image2'] = "$profileImage";
+        if ($image2 = $request->file('image2')) {
+            $image2Name = date('YmdHis') . '_' . uniqid() . "." . $image2->getClientOriginalExtension();
+            $image2->move($destinationPath, $image2Name);
+            $input['image2'] = $image2Name;
         }
 
         blogs::create($input);
