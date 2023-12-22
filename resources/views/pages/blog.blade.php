@@ -8,7 +8,7 @@
         <div class="row mt-5">
             @foreach($blogs as $blog)
             <div class="col-6 col-md-4 blog_item" style="background-image: url('{{asset('upload/blogs/'.$blog->blog_image)}}')">
-                <a href="{{ route('blog-item') }}">
+                <a href="{{ route('blog-show',$blog->id) }}">
                     <div class="blog_item_container">
                         <p class="blog_item_container_title">{{ $blog->blog_title }}</p>
                         <p class="blog_item_container_text">{{ $blog->blog_description }}</p>
@@ -27,7 +27,7 @@
             </div>
             @endforeach
             <div class="col-6 col-md-4 blog_item d-flex align-items-center">
-                <a href="{{ route('blog-item') }}">
+                <a href="">
                     <div class="popular_blog">
                         <p class="popular_blog_title">Popular Blog</p>
                         <p class="popular_blog_text">

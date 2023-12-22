@@ -6,6 +6,8 @@ use App\Models\blogs;
 use App\Models\Info;
 use App\Models\models;
 use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -41,10 +43,16 @@ class HomeController extends Controller
         return view('pages.blog', compact('info', 'blogs'));
     }
 
-    public function blogItem()
+    /**
+     * Display the specified resource.
+     *
+     * @param blogs $blog
+     * @return Factory|View
+     */
+    public function blogShow(blogs $blog)
     {
         $info = Info::first();
-        return view('pages.blog-item', compact('info'));
+        return view('pages.blog-item', compact('info', 'blog'));
     }
 
     public function contact()
