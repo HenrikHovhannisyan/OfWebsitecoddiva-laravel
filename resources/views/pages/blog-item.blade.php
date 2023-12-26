@@ -11,19 +11,20 @@
                     {{$blog->title}}
                 </p>
                 <p class="blog_item_description">
-                    <img src="{{asset('upload/blogs/'.$blog->image1)}}" class="img-fluid mb-3 me-3" alt="" style="float: left">
-                    {{$blog->description}}
+                    <img src="{{asset('upload/blogs/'.$blog->image1)}}" class="img-fluid mb-3 me-3" alt=""
+                         style="float: left">
+                    {!! html_entity_decode($blog->description) !!}
                 </p>
                 <img src="{{asset('upload/blogs/'.$blog->image2)}}" class="img-fluid mb-4" alt="">
                 <div class="blog_date mt-1">
+    <span>
+        <i class="fa-solid fa-calendar-days"></i>
+        24.08.23
+    </span>
                     <span>
-                        <i class="fa-solid fa-calendar-days"></i>
-                        24.08.23
-                    </span>
-                    <span>
-                        <i class="fa-regular fa-eye"></i>
-                        785
-                    </span>
+        <i class="fa-regular fa-eye"></i>
+        785
+    </span>
                 </div>
             </div>
         </div>

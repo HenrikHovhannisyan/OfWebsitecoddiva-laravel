@@ -55,7 +55,7 @@
                     <div class="col-12 col-md-6">
                         <div class="form-group">
                             <strong>Description:</strong><br>
-                            <textarea name="description" class="form-control" placeholder="Description" id=""></textarea>
+                            <textarea name="description" id="description" class="form-control" placeholder="Description"></textarea>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
@@ -76,6 +76,23 @@
                 </div>
             </form>
         </div>
-
     </div>
+
+    <script>
+        ClassicEditor.create(document.querySelector("#description"), {
+            toolbar: {
+                items: [
+                    'undo', 'redo',
+                    '|', 'heading',
+                    '|', 'fontfamily', 'fontsize', 'fontColor', 'fontBackgroundColor',
+                    '|', 'bold', 'italic', 'strikethrough', 'subscript', 'superscript', 'code',
+                    '|', 'link', 'codeBlock',
+                    '|', 'bulletedList', 'numberedList', 'todoList',
+                ],
+                shouldNotGroupWhenFull: false
+            }
+        }).catch((error) => {
+            console.error(error);
+        });
+    </script>
 @endsection
