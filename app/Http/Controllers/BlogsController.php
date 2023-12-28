@@ -165,9 +165,25 @@ class BlogsController extends Controller
      */
     public function destroy(blogs $blog)
     {
-        if ($blog->image) {
+        if ($blog->blog_image) {
             $destinationPath = 'upload/blogs/';
-            $imagePath = public_path($destinationPath . $blog->image);
+            $imagePath = public_path($destinationPath . $blog->blog_image);
+
+            if (file_exists($imagePath)) {
+                unlink($imagePath);
+            }
+        }
+        if ($blog->image1) {
+            $destinationPath = 'upload/blogs/';
+            $imagePath = public_path($destinationPath . $blog->image1);
+
+            if (file_exists($imagePath)) {
+                unlink($imagePath);
+            }
+        }
+        if ($blog->image2) {
+            $destinationPath = 'upload/blogs/';
+            $imagePath = public_path($destinationPath . $blog->image2);
 
             if (file_exists($imagePath)) {
                 unlink($imagePath);
