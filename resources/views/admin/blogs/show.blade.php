@@ -15,16 +15,52 @@
         <div class="row mt-3">
             <div class="col-12">
                 <div class="form-group">
-                    <strong>Title:</strong><br>
-                    <span class="h3">{{ $blog->title }}</span>
+                    <strong class="text-danger">Blog Title:</strong><br>
+                    <span class="">{{ $blog->blog_title }}</span>
                 </div>
             </div>
             <div class="col-12">
                 <div class="form-group">
-                    <strong>Image:</strong>
-                    <div class="col-12 col-md-6 mt-3">
-                        <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" class="img-fluid">
+                    <strong class="text-danger">Blog Description:</strong><br>
+                    <span class="">{{ $blog->blog_description }}</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="form-group">
+                        <strong class="text-danger">Blog Image:</strong>
+                        <div class="col-12 col-md-6 mt-3 text-center">
+                            <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" width="150" class="img-fluid">
+                        </div>
                     </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="form-group">
+                        <strong class="text-danger">Image 1:</strong>
+                        <div class="col-12 col-md-6 mt-3 text-center">
+                            <img src="{{asset('upload/blogs/'.$blog->image1)}}" width="150" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="form-group">
+                        <strong class="text-danger">Image 2:</strong>
+                        <div class="col-12 col-md-6 mt-3 text-center">
+                            <img src="{{asset('upload/blogs/'.$blog->image1)}}" width="150" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group">
+                    <strong class="text-danger">Blog Title:</strong><br>
+                    <span class="">{{ $blog->title }}</span>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group">
+                    <strong class="text-danger">Blog Description:</strong><br>
+                    <span class="">{!! html_entity_decode($blog->description) !!}</span>
                 </div>
             </div>
         </div>
