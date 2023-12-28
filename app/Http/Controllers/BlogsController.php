@@ -102,28 +102,53 @@ class BlogsController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param blogs $blog
+     * @param $id
      * @return RedirectResponse
      */
-    public function update(Request $request, blogs $blog)
+    public function update(Request $request, $id)
     {
+        $blog = blogs::findOrFail($id);
         $input = $request->all();
 
-        if ($image = $request->file('image')) {
+        if ($blogImage = $request->file('blog_image')) {
             $destinationPath = 'upload/blogs/';
+            $blogImageName = date('YmdHis') . '_' . uniqid() . "." . $blogImage->getClientOriginalExtension();
+            $blogImage->move($destinationPath, $blogImageName);
 
-            if ($blog->image) {
-                $oldImagePath = public_path($destinationPath . $blog->image);
+            if ($blog->blog_image) {
+                $oldImagePath = public_path($destinationPath . $blog->blog_image);
                 if (file_exists($oldImagePath)) {
                     unlink($oldImagePath);
                 }
             }
 
-            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
-            $image->move($destinationPath, $profileImage);
-            $input['image'] = $profileImage;
-        } else {
-            unset($input['image']);
+            $input['blog_image'] = $blogImageName;
+        }
+
+        if ($image1 = $request->file('image1')) {
+            $destinationPath = 'upload/blogs/';
+            $image1Name = date('YmdHis') . '_' . uniqid() . "." . $image1->getClientOriginalExtension();
+            $image1->move($destinationPath, $image1Name);
+            if ($blog->image1) {
+                $oldImage1Path = public_path($destinationPath . $blog->image1);
+                if (file_exists($oldImage1Path)) {
+                    unlink($oldImage1Path);
+                }
+            }
+            $input['image1'] = $image1Name;
+        }
+
+        if ($image2 = $request->file('image2')) {
+            $destinationPath = 'upload/blogs/';
+            $image2Name = date('YmdHis') . '_' . uniqid() . "." . $image2->getClientOriginalExtension();
+            $image2->move($destinationPath, $image2Name);
+            if ($blog->image2) {
+                $oldImage1Path = public_path($destinationPath . $blog->image2);
+                if (file_exists($oldImage1Path)) {
+                    unlink($oldImage1Path);
+                }
+            }
+            $input['image2'] = $image2Name;
         }
 
         $blog->update($input);
