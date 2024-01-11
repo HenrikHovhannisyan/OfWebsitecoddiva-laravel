@@ -90,50 +90,18 @@
 
         <div class="faq">
             <div class="accordion">
-                <div class="accordion_item">
-                    <div class="accordion-item-header">
-                        How do I get paid?
-                    </div>
-                    <div class="accordion-item-body">
-                        <div class="accordion-item-body-content">
-                            Once you've referred your first model every single month we will pay you to your
-                            nominated bank account at a set time every single month
+                @foreach($faqs as $faq)
+                    <div class="accordion_item">
+                        <div class="accordion-item-header">
+                            {{$faq->question}}
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                {{$faq->answer}}
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion_item">
-                    <div class="accordion-item-header">
-                        What's the commission?
-                    </div>
-                    <div class="accordion-item-body">
-                        <div class="accordion-item-body-content">
-                            Once you've referred your first model every single month we will pay you to your
-                            nominated bank account at a set time every single month
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion_item">
-                    <div class="accordion-item-header">
-                        How long do the referral fees last for?
-                    </div>
-                    <div class="accordion-item-body">
-                        <div class="accordion-item-body-content">
-                            Once you've referred your first model every single month we will pay you to your
-                            nominated bank account at a set time every single month
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion_item">
-                    <div class="accordion-item-header">
-                        Where do I find creators to refer?
-                    </div>
-                    <div class="accordion-item-body">
-                        <div class="accordion-item-body-content">
-                            Once you've referred your first model every single month we will pay you to your
-                            nominated bank account at a set time every single month
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>

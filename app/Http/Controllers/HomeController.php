@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\blogs;
+use App\Models\Faq;
 use App\Models\Info;
 use App\Models\models;
 use Illuminate\Contracts\Support\Renderable;
@@ -63,8 +64,9 @@ class HomeController extends Controller
 
     public function refer()
     {
+        $faqs = Faq::all();
         $info = Info::first();
-        return view('pages.refer', compact('info'));
+        return view('pages.refer', compact('info', 'faqs'));
     }
 
     public function legal()
