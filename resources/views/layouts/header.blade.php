@@ -38,18 +38,14 @@
                 <div class="list-group menu_list">
                     <a href="{{ route('index') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('index') }}" aria-current="true">HOME</a>
-                    <a href="{{ route('contact') }}"
-                       class="list-group-item list-group-item-action {{ isActiveRoute('contact') }}">CONTACT</a>
-                    <a href="{{ route('blog') }}"
-                       class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                     <a href="{{ route('about') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('about') }}">ABOUT US</a>
                     <a href="{{ route('apply-now') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('apply-now') }}">APPLY NOW</a>
                     <a href="{{ route('refer') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('refer') }}">REFER</a>
-                    <a href="{{ route('legal') }}"
-                       class="list-group-item list-group-item-action {{ isActiveRoute('legal') }}">LEGAL</a>
+                    <a href="{{ route('blog') }}"
+                       class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                 </div>
             </div>
             @if(isActiveRoute('index'))
@@ -71,8 +67,8 @@
                                                                      style="background-image: url('./images/menu/LEGAL.png')">
                                                                     @endif
                                                                     <a href="{{ $info->instagram }}" target="_blank">Instagram</a>
-                                                                    <a href="{{ $info->facebook }}" target="_blank">Facebook</a>
-                                                                    <a href="{{ $info->pinterest }}" target="_blank">Pinterest</a>
+                                                                    <a href="{{ route('contact') }}">Contact</a>
+                                                                    <a href="{{ route('legal') }}">Legal</a>
                                                                 </div>
                                                         </div>
 
