@@ -46,6 +46,7 @@ form {
 }
 
 .menu_list .active {
+    width: max-content;
     background-color: unset;
     color: #1E2022;
     padding-left: 0;
