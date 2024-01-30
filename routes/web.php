@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogsController;
 use App\Http\Controllers\FaqController;
@@ -27,4 +28,5 @@ Route::prefix('admin')->group(function () {
     Route::resource('models', ModelsController::class);
     Route::resource('blogs', BlogsController::class);
     Route::resource('faqs', FaqController::class);
+    Route::resource('about', AboutController::class);
 });

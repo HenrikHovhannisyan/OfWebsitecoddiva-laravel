@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\About;
 use App\Models\blogs;
 use App\Models\Faq;
 use App\Models\Info;
@@ -27,8 +28,9 @@ class HomeController extends Controller
 
     public function about()
     {
+        $about = About::first();
         $info = Info::first();
-        return view('pages.about', compact('info'));
+        return view('pages.about', compact('info', 'about'));
     }
 
     public function applyNow()

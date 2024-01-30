@@ -52,6 +52,9 @@
                             <a class="nav-link" href="{{route('info.index')}}">Info</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{route('about.index')}}">About</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{route('faqs.index')}}">FAQs</a>
                         </li>
                     </ul>
