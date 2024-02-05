@@ -76,4 +76,10 @@ class HomeController extends Controller
         $info = Info::first();
         return view('pages.legal', compact('info'));
     }
+
+    public function talents()
+    {
+        $info = Info::first();
+        return view('pages.talents', compact('info'));
+    }
 }

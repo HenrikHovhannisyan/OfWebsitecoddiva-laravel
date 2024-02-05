@@ -92,6 +92,7 @@ form {
     line-height: 80px;
     letter-spacing: 0.135em;
     text-align: right;
+    text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -530,6 +531,94 @@ form {
 
 /* End Refer page */
 
+/* Start Our Talents page */
+#talents_banner {
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#talents_banner_content {
+    position: absolute;
+    max-width: 720px;
+    padding: 25px;
+}
+
+.talents_banner_title {
+    font-family: Alice, serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.talents_banner_description {
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.talents_banner_btn {
+    font-family: Alice, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    border-radius: 0;
+    padding: 16px 33px;
+}
+
+#model {
+    margin-top: 120px;
+}
+
+#model_title {
+    font-family: Alice, serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.model_item {
+    margin-bottom: 30px;
+}
+
+.model_item_title {
+    font-family: Alice, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.model_item_description {
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* End Our Talents page */
+
 /*=============== BREAKPOINTS ===============*/
 @media screen and (max-width: 1500px) {
 
@@ -547,6 +636,21 @@ form {
 
     .refer_section {
         background-image: unset;
+    }
+
+    .talents_banner_title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .talents_banner_description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .talents_banner_btn {
+        font-size: 16px;
+        line-height: 18px;
     }
 }
 
@@ -590,6 +694,14 @@ form {
     .content_title {
         font-size: 42px;
         line-height: 60px;
+    }
+
+    .refer_img {
+        display: none;
+    }
+
+    #talents_banner_content {
+        position: unset;
     }
 }
 

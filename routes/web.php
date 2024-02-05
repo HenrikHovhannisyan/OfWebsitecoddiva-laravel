@@ -18,6 +18,7 @@ Route::get('/blog/{blog}', [HomeController::class, 'blogShow'])->name('blog-show
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/refer', [HomeController::class, 'refer'])->name('refer');
 Route::get('/legal', [HomeController::class, 'legal'])->name('legal');
+Route::get('/talents', [HomeController::class, 'talents'])->name('talents');
 
 
 Auth::routes();
