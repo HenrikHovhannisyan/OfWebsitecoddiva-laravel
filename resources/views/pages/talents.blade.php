@@ -84,5 +84,161 @@
                 </div>
             </div>
         </section>
+        <section id="talents">
+            <p id="model_title" class="text-end">
+                our talents
+            </p>
+            <span class="line bottom_line"></span>
+            <div class="row w-100 mt-5">
+                <div class="col-12 mb-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <img src="../images/talents/1.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <p class="talents_text">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <p class="talents_name">martina</p>
+                            <p class="talents_text">
+                                London-based model and stylist MARTINA expresses his style through vibrant colors and
+                                themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
+                                who he is.
+                            </p>
+                            <img src="../images/talents/2.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_title">
+                                HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
+                            </p>
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <p class="talents_name">martina</p>
+                            <p class="talents_text">
+                                London-based model and stylist MARTINA expresses his style through vibrant colors and
+                                themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
+                                who he is.
+                            </p>
+                            <img src="../images/talents/3.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_title">
+                                HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
+                            </p>
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img src="../images/talents/4.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <p class="talents_text">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <img src="../images/talents/5.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <p class="talents_text">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <p class="talents_name">martina</p>
+                            <p class="talents_text">
+                                London-based model and stylist MARTINA expresses his style through vibrant colors and
+                                themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
+                                who he is.
+                            </p>
+                            <img src="../images/talents/6.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_title">
+                                HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
+                            </p>
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <p class="talents_name">martina</p>
+                            <p class="talents_text">
+                                London-based model and stylist MARTINA expresses his style through vibrant colors and
+                                themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
+                                who he is.
+                            </p>
+                            <img src="../images/talents/7.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_title">
+                                HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
+                            </p>
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img src="../images/talents/8.png" class="img-fluid mb-3" alt="">
+                            <p class="talents_text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <p class="talents_text">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection
