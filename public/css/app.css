@@ -85,6 +85,65 @@ form {
 /* End Menu */
 
 /* Start Gallery */
+#banner_title {
+    font-family: Alice, serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 105px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #ffffff;
+}
+
+#banner_text {
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFFFFFCC;
+}
+
+.banner_btn {
+    font-family: Alice, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #000000;
+    padding: 16px 53px;
+    border-radius: 0;
+    background: #FFFFFF;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+#home_info {
+    margin-top: 120px;
+}
+
+.home_info_item_title {
+    font-family: Alice, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.home_info_item_text {
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFFFFFCC;
+}
+
 .content_title {
     font-family: Alice, serif;
     font-size: 70px;
@@ -684,6 +743,17 @@ form {
 }
 
 @media screen and (max-width: 768px) {
+    #banner_title {
+        font-size: 38px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    .banner_btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .content {
         height: unset;
         padding-bottom: 15px;
