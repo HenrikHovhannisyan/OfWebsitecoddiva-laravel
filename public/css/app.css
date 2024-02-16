@@ -120,7 +120,10 @@ form {
     text-transform: uppercase;
 }
 
-#home_info {
+#home_info,
+#home_our_services,
+#home_testimonials,
+#home_faq {
     margin-top: 120px;
 }
 
@@ -144,6 +147,76 @@ form {
     color: #FFFFFFCC;
 }
 
+#home_our_services_title {
+    font-family: Alice, serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.11em;
+    text-align: right;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+#home_our_services .model_item {
+    max-width: 380px;
+    margin-bottom: 40px;
+}
+
+#home_our_services .model_item_title {
+    font-family: Alice, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    color: #ffffff;
+}
+
+#home_our_services .model_item_description {
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFFFFFCC;
+}
+
+.home_owl_img {
+    max-width: 220px;
+}
+
+.home_owl_img_title {
+    font-family: Alice, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.home_owl_img_text {
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFFFFFCC;
+}
+
+.owl-nav {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.owl-dots {
+    display: none;
+}
+
 .content_title {
     font-family: Alice, serif;
     font-size: 70px;
@@ -163,6 +236,7 @@ form {
     margin-top: 80px;
     padding-bottom: 1px;
 }
+
 .our_services_item {
     margin-bottom: 80px;
 }
@@ -531,7 +605,7 @@ form {
 }
 
 .accordion-item-header {
-    border-radius: 15px;
+    border-radius: 5px;
     font-family: Alice, serif;
     font-size: 18px;
     font-weight: 400;

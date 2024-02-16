@@ -21,9 +21,10 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $faqs = Faq::all();
         $info = Info::first();
         $models = models::all();
-        return view('index', compact('info', 'models'));
+        return view('index', compact('info', 'models', 'faqs'));
     }
 
     public function about()

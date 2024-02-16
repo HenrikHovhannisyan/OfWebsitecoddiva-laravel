@@ -25,3 +25,37 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
         }
     });
 });
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    nav: true,
+    navText: [
+        '<button type="button" class="btn btn-light m-2 rounded-circle"><i class="fa-solid fa-chevron-left text-dark"></i></button>',
+        '<button type="button" class="btn btn-light m-2 rounded-circle"><i class="fa-solid fa-chevron-right text-dark"></i></button>'
+    ],
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+        },
+        1200: {
+            items: 2,
+        }
+    }
+});
+
+$('.owl-carousel').find('.owl-nav').removeClass('disabled');
+$('.owl-carousel').on('changed.owl.carousel', function (event) {
+    $(this).find('.owl-nav').removeClass('disabled');
+});
+
