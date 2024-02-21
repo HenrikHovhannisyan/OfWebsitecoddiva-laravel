@@ -33,7 +33,7 @@
                     <td>
                         <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" width="100px">
                     </td>
-                    <td>{{ $blog->title }}</td>
+                    <td>{{ $blog->blog_title }}</td>
                     <td>0</td>
                     <td>
                         <form action="{{ route('blogs.destroy',$blog->id) }}" method="POST">

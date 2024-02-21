@@ -22,7 +22,7 @@
             <div class="col-12">
                 <div class="form-group">
                     <strong class="text-danger">Blog Description:</strong><br>
-                    <span class="">{{ $blog->blog_description }}</span>
+                    {!! html_entity_decode($blog->blog_description) !!}
                 </div>
             </div>
             <div class="row">
@@ -49,18 +49,6 @@
                             <img src="{{asset('upload/blogs/'.$blog->image1)}}" width="150" class="img-fluid">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="form-group">
-                    <strong class="text-danger">Blog Title:</strong><br>
-                    <span class="">{{ $blog->title }}</span>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="form-group">
-                    <strong class="text-danger">Blog Description:</strong><br>
-                    <span class="">{!! html_entity_decode($blog->description) !!}</span>
                 </div>
             </div>
         </div>

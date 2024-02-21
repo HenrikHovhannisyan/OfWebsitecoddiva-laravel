@@ -31,17 +31,20 @@
                     <div class="col-12 col-md-6">
                         <div class="form-group">
                             <strong>Blog Title:</strong>
-                            <input type="text" name="name" value="{{ $blog->title }}" class="form-control"
+                            <input type="text" name="blog_title" value="{{ $blog->blog_title }}" class="form-control"
                                    placeholder="Name">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12">
                         <div class="form-group">
-                            <strong>Title:</strong>
-                            <input type="text" name="title" value="{{ $blog->title }}" class="form-control"
-                                   placeholder="Title">
+                            <strong>Blog Description:</strong><br>
+                            <textarea name="blog_description" id="description" class="form-control" placeholder="Blog Description" id="">
+                                {{ $blog->blog_description }}
+                            </textarea>
                         </div>
                     </div>
+                    <hr class="mt-3">
+
                     <div class="col-12 col-md-4">
                         <div class="form-group">
                             <strong>Image:</strong>
@@ -67,23 +70,6 @@
                                 <input type="file" name="image2" class="form-control" placeholder="Image 2">
                                 <img src="{{asset('upload/blogs/'.$blog->image2)}}" width="100px" class="img-fluid">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="form-group">
-                            <strong>Blog Description:</strong><br>
-                            <textarea name="blog_description" class="form-control" placeholder="Blog Description" id="">
-                                {{ $blog->blog_description }}
-                            </textarea>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="form-group">
-                            <strong>Description:</strong><br>
-                            <textarea name="description" id="description" class="form-control"
-                                      placeholder="Description">
-                                {{ $blog->description }}
-                            </textarea>
                         </div>
                     </div>
                     <div class="col-12 mt-3 text-center">

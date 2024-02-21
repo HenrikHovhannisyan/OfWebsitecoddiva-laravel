@@ -28,43 +28,32 @@
             <form action="{{ route('blogs.store') }}" method="POST" enctype="multipart/form-data" class="mt-3">
                 @csrf
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6">
                         <div class="form-group">
                             <strong>Blog Title:</strong>
                             <input type="text" name="blog_title" class="form-control" placeholder="Blog Title">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12">
                         <div class="form-group">
-                            <strong>Blog Description:</strong><br>
-                            <textarea name="blog_description" class="form-control" placeholder="Blog Description" id=""></textarea>
+                            <strong>Description:</strong><br>
+                            <textarea name="blog_description" id="description" class="form-control" placeholder="Description"></textarea>
                         </div>
                     </div>
+                    <hr class="mt-3">
                     <div class="col-12 col-md-4">
                         <div class="form-group">
                             <strong>Blog Image:</strong>
                             <input type="file" name="blog_image" class="form-control" placeholder="Blog Image">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="form-group">
-                            <strong>Title:</strong>
-                            <input type="text" name="title" class="form-control" placeholder="Title">
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="form-group">
-                            <strong>Description:</strong><br>
-                            <textarea name="description" id="description" class="form-control" placeholder="Description"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-4">
                         <div class="form-group">
                             <strong>Image 1:</strong>
                             <input type="file" name="image1" class="form-control" placeholder="Image 1">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-4">
                         <div class="form-group">
                             <strong>Image 2:</strong>
                             <input type="file" name="image2" class="form-control" placeholder="Image 2">

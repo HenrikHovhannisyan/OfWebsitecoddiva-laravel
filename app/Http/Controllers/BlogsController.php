@@ -44,7 +44,6 @@ class BlogsController extends Controller
         $request->validate([
             'blog_image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'blog_title' => 'required',
-            'blog_description' => 'required',
             'image1' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'image2' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
