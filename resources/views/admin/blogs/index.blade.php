@@ -23,7 +23,7 @@
                 <th>No</th>
                 <th>Image</th>
                 <th>Title</th>
-                <th>Views</th>
+                <th>Date</th>
                 <th width="280px">Action</th>
             </tr>
 
@@ -34,7 +34,7 @@
                         <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" width="100px">
                     </td>
                     <td>{{ $blog->blog_title }}</td>
-                    <td>0</td>
+                    <td>{{ substr($blog->updated_at, 0, 10) }}</td>
                     <td>
                         <form action="{{ route('blogs.destroy',$blog->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('blogs.show',$blog->id) }}">
