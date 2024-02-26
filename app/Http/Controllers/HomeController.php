@@ -43,8 +43,10 @@ class HomeController extends Controller
     public function blog()
     {
         $blogs = blogs::all();
+        $blog_one = $blogs[0];
+        $_blogs = [$blogs[1], $blogs[2]];
         $info = Info::first();
-        return view('pages.blog', compact('info', 'blogs'));
+        return view('pages.blog', compact('info', 'blogs', 'blog_one', '_blogs'));
     }
 
     /**
