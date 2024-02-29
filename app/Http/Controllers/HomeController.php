@@ -42,7 +42,7 @@ class HomeController extends Controller
 
     public function blog()
     {
-        $blogs = blogs::all();
+        $blogs = blogs::orderBy('created_at', 'desc')->get();
         $blog_one = $blogs[0];
         $_blogs = [$blogs[1], $blogs[2]];
         $info = Info::first();

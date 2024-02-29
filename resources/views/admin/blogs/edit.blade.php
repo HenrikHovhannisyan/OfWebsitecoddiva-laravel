@@ -37,9 +37,17 @@
                     </div>
                     <div class="col-12">
                         <div class="form-group">
-                            <strong>Blog Description:</strong><br>
-                            <textarea name="blog_description" id="description" class="form-control" placeholder="Blog Description" id="">
+                            <strong>Description:</strong><br>
+                            <textarea name="blog_description" id="blog_description" class="form-control" placeholder="Blog Description" id="">
                                 {{ $blog->blog_description }}
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <strong>Text:</strong><br>
+                            <textarea name="description" id="description" class="form-control" placeholder="Blog Description" id="">
+                                {{ $blog->description }}
                             </textarea>
                         </div>
                     </div>
@@ -80,6 +88,21 @@
         </div>
     </div>
     <script>
+        ClassicEditor.create(document.querySelector("#blog_description"), {
+            toolbar: {
+                items: [
+                    'undo', 'redo',
+                    '|', 'heading',
+                    '|', 'fontfamily', 'fontsize', 'fontColor', 'fontBackgroundColor',
+                    '|', 'bold', 'italic', 'strikethrough', 'subscript', 'superscript', 'code',
+                    '|', 'link', 'codeBlock',
+                    '|', 'bulletedList', 'numberedList', 'todoList',
+                ],
+                shouldNotGroupWhenFull: false
+            }
+        }).catch((error) => {
+            console.error(error);
+        });
         ClassicEditor.create(document.querySelector("#description"), {
             toolbar: {
                 items: [

@@ -19,12 +19,21 @@
                     <span class="">{{ $blog->blog_title }}</span>
                 </div>
             </div>
+            <hr>
             <div class="col-12">
                 <div class="form-group">
-                    <strong class="text-danger">Blog Description:</strong><br>
+                    <strong class="text-danger">Description:</strong><br>
                     {!! html_entity_decode($blog->blog_description) !!}
                 </div>
             </div>
+            <hr>
+            <div class="col-12">
+                <div class="form-group">
+                    <strong class="text-danger">Text:</strong><br>
+                    {!! html_entity_decode($blog->description) !!}
+                </div>
+            </div>
+            <hr>
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="form-group">
@@ -46,7 +55,7 @@
                     <div class="form-group">
                         <strong class="text-danger">Image 2:</strong>
                         <div class="col-12 col-md-6 mt-3 text-center">
-                            <img src="{{asset('upload/blogs/'.$blog->image1)}}" width="150" class="img-fluid">
+                            <img src="{{asset('upload/blogs/'.$blog->image2)}}" width="150" class="img-fluid">
                         </div>
                     </div>
                 </div>
