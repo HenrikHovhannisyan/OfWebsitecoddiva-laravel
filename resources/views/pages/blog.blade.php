@@ -16,7 +16,7 @@
                             </span>
                     </div>
                     <p class="blog_item_container_title">{{ $blog_one->blog_title }}</p>
-                    <p class="blog_item_container_text">{!! html_entity_decode($blog_one->blog_description) !!}</p>
+                    <div class="blog_item_container_text">{!! html_entity_decode($blog_one->blog_description) !!}</div>
                     <a href="{{ route('blog-show',$blog_one->id) }}" class="btn blog_btn mb-3">view</a>
                 </div>
             </div>

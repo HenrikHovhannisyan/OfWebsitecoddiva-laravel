@@ -59,3 +59,11 @@ $('.owl-carousel').on('changed.owl.carousel', function (event) {
     $(this).find('.owl-nav').removeClass('disabled');
 });
 
+$(document).ready(function(){
+    let firstParagraph = $('.blog_item_container_text').find('p:first');
+    let truncatedParagraph = firstParagraph.clone();
+    truncatedParagraph.nextAll().remove();
+    truncatedParagraph.addClass('truncate');
+    $('.blog_item_container_text').empty().append(truncatedParagraph);
+});
+
