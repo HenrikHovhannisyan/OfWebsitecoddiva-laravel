@@ -30,9 +30,9 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="form-group">
-                            <strong>Facebook:</strong>
+                            <strong>Telegram:</strong>
                             <input type="text" name="facebook" value="{{ $info->facebook }}" class="form-control"
-                                   placeholder="Facebook">
+                                   placeholder="Telegram">
                         </div>
                         <div class="form-group">
                             <strong>Instagram:</strong>

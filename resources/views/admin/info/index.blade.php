@@ -22,7 +22,7 @@
                     <div class="col-12 col-lg-4">
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <strong>Facebook:</strong>
+                                <strong>Telegram:</strong>
                                 <a href="{{ $info->facebook }}" target="_blank"
                                    class="text-danger">{{ $info->facebook }}</a>
                             </li>
