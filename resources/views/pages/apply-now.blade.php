@@ -13,7 +13,7 @@
                     Interested in joining Model Management? Either refer talent or apply now! We offer a free 15-minute
                     consultation to help you learn more about our services and how to get started.
                 </p>
-                <button type="button" class="btn btn-light talents_banner_btn">APPLY NOW</button>
+                <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn">APPLY NOW</a>
             </div>
         </section>
         <section id="home_info">
@@ -76,7 +76,7 @@
                     <p class="apply_title">
                         “How To Make 1K Per Day With OF In The Next 48 Hours Or Less Starting Today...Guaranteed!”
                     </p>
-                    <button type="button" class="btn btn-light talents_banner_btn mb-3">APPLY NOW</button>
+                    <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn mb-3">APPLY NOW</a>
                 </div>
                 <iframe width="100%" height="100%"
                         src="https://www.youtube.com/embed/{{$info->video}}?si=Wl6aUbPRyiPO5VGE"

@@ -16,7 +16,7 @@
                             full
                             earning potential.
                         </p>
-                        <button class="btn banner_btn">Apply now</button>
+                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply now</a>
                     </div>
                 </div>
             </div>

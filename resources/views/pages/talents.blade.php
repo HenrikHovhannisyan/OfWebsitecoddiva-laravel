@@ -13,7 +13,7 @@
                     Interested in joining Model Management? Either refer talent or apply now! We offer a free 15-minute
                     consultation to help you learn more about our services and how to get started.
                 </p>
-                <button type="button" class="btn btn-light talents_banner_btn">APPLY NOW</button>
+                <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn">APPLY NOW</a>
             </div>
         </section>
         <section id="model">
