@@ -80,7 +80,7 @@
                                                                 </div>
                                                         </div>
 
-                                                        <div class="col-12 col-md-9 content ps-0 ms-0 pe-0 me-0">
+                                                        <div class="col-12 col-md-9 offset-md-3 content ps-0 pe-0 me-0">
                                                             @yield('content')
                                                         </div>
                                                 </div>
