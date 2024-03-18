@@ -7,7 +7,9 @@
         <span class="line bottom_line"></span>
         <div class="row mt-5">
             <div class="col col-lg-8">
-                <img src="{{asset('upload/blogs/'.$blog_one->blog_image)}}" class="img-fluid" alt="">
+                <div class="geeks">
+                    <img src="{{asset('upload/blogs/'.$blog_one->blog_image)}}" class="img-fluid" alt="">
+                </div>
                 <div class="blog_item_container">
                     <div class="blog_date">
                             <span>
@@ -24,7 +26,9 @@
                 @foreach($_blogs as $blog)
                     <div class="blog_item">
                         <a href="{{ route('blog-show',$blog->id) }}">
-                            <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" class="img-fluid" alt="">
+                            <div class="geeks">
+                                <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" class="img-fluid" alt="">
+                            </div>
                             <div class="blog_item_container">
                                 <div class="blog_date">
                             <span>
@@ -41,20 +45,22 @@
         </div>
         <div class="row mt-5">
             @foreach($blogs->slice(3) as $blog)
-            <div class="col-6 col-md-4 blog_item">
-                <a href="{{ route('blog-show',$blog->id) }}">
-                    <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" class="img-fluid" alt="">
-                    <div class="blog_item_container">
-                        <div class="blog_date">
+                <div class="col-6 col-md-4 blog_item">
+                    <a href="{{ route('blog-show',$blog->id) }}">
+                        <div class="geeks">
+                            <img src="{{asset('upload/blogs/'.$blog->blog_image)}}" class="img-fluid" alt="">
+                        </div>
+                        <div class="blog_item_container">
+                            <div class="blog_date">
                             <span>
                                 <i class="fa-solid fa-calendar-days"></i>
                                 {{ substr($blog->updated_at, 0, 10) }}
                             </span>
+                            </div>
+                            <p class="blog_item_container_title">{{ $blog->blog_title }}</p>
                         </div>
-                        <p class="blog_item_container_title">{{ $blog->blog_title }}</p>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
             @endforeach
         </div>
     </div>

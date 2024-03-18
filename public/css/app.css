@@ -919,3 +919,16 @@ form {
 @media screen and (max-width: 350px) {
 
 }
+.geeks {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.geeks img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+    transform: scale(1.2);
+}
