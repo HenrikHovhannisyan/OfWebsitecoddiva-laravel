@@ -5,7 +5,7 @@
         <span class="line top_line"></span>
         <h2 class="content_title mb-0">Our talents</h2>
         <span class="line bottom_line"></span>
-        <section id="talents_banner">
+        <section data-aos="zoom-in" id="talents_banner">
             <img src="../images/talents/talents_banner.png" class="img-fluid refer_img" alt="">
             <div id="talents_banner_content">
                 <p class="talents_banner_title">Become one of our talents</p>
@@ -16,7 +16,7 @@
                 <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn">APPLY NOW</a>
             </div>
         </section>
-        <section id="model">
+        <section data-aos="zoom-in" id="model">
             <p id="model_title">
                 our process to become a model
             </p>
@@ -84,13 +84,13 @@
                 </div>
             </div>
         </section>
-        <section id="talents">
+        <section data-aos="zoom-in" id="talents">
             <p id="model_title" class="text-end">
                 our talents
             </p>
             <span class="line bottom_line"></span>
             <div class="row w-100 mt-5">
-                <div class="col-12 mb-5">
+                <div data-aos="fade-right" class="col-12 mb-5">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <img src="../images/talents/1.png" class="img-fluid mb-3" alt="">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mb-5">
+                <div data-aos="fade-left" class="col-12 mb-5">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <p class="talents_name">martina</p>
@@ -164,7 +164,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mb-5">
+                <div data-aos="fade-right" class="col-12 mb-5">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <img src="../images/talents/5.png" class="img-fluid mb-3" alt="">
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mb-5">
+                <div data-aos="fade-left" class="col-12 mb-5">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <p class="talents_name">martina</p>

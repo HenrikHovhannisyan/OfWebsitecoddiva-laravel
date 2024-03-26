@@ -23,7 +23,7 @@
             <img src="../images/banner_bg.png" class="img-fluid" alt="">
         </div>
     </section>
-    <section id="home_info">
+    <section data-aos="fade-right" id="home_info">
         <div class="container-fluid">
             <p id="model_title">
                 Why Choose Model Management?
@@ -73,7 +73,7 @@
             </div>
         </div>
     </section>
-    <section id="home_our_services">
+    <section data-aos="fade-left" id="home_our_services">
         <p id="home_our_services_title">
             our services
         </p>
@@ -142,7 +142,7 @@
             </div>
         </div>
     </section>
-    <section id="home_testimonials">
+    <section data-aos="fade-right" id="home_testimonials">
         <div class="container-fluid">
             <p id="model_title">
                 our testimonials
@@ -158,7 +158,8 @@
                                     <div class="ms-5">
                                         <p class="home_owl_img_title">Sophie H.</p>
                                         <p class="home_owl_img_text mb-0">
-                                            Model Management turned my OnlyFans journey into a dream. Their coaching calls
+                                            Model Management turned my OnlyFans journey into a dream. Their coaching
+                                            calls
                                             are a game-changer, and the networking opportunities are beyond my wildest
                                             expectations!
                                         </p>
@@ -171,7 +172,8 @@
                                     <div class="ms-5">
                                         <p class="home_owl_img_title">Sophie H.</p>
                                         <p class="home_owl_img_text mb-0">
-                                            Model Management turned my OnlyFans journey into a dream. Their coaching calls
+                                            Model Management turned my OnlyFans journey into a dream. Their coaching
+                                            calls
                                             are a game-changer, and the networking opportunities are beyond my wildest
                                             expectations!
                                         </p>
@@ -184,7 +186,7 @@
             </div>
         </div>
     </section>
-    <section id="home_faq">
+    <section data-aos="fade-left" id="home_faq">
         <p id="home_our_services_title">
             FREQUENTLy asked questions
         </p>
@@ -208,4 +210,5 @@
             </div>
         </div>
     </section>
+
 @endsection

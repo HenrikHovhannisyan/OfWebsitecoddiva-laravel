@@ -67,3 +67,4 @@ $(document).ready(function(){
     $('.blog_item_container_text').empty().append(truncatedParagraph);
 });
 
+AOS.init();

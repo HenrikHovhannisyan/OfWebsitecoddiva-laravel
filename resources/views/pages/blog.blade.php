@@ -1,7 +1,7 @@
 @extends('layouts.header')
 
 @section('content')
-    <div class="container">
+    <div data-aos="zoom-in" class="container">
         <span class="line top_line"></span>
         <h2 class="content_title mb-0">BLOG</h2>
         <span class="line bottom_line"></span>

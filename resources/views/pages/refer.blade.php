@@ -1,7 +1,7 @@
 @extends('layouts.header')
 
 @section('content')
-    <div class="container">
+    <div data-aos="zoom-in" class="container">
         <span class="line top_line"></span>
         <h2 class="content_title mb-0">REFER</h2>
         <span class="line bottom_line"></span>
@@ -56,7 +56,7 @@
             <p class="refer_section_title">How it Works when you partner with us</p>
             <div class="container">
                 <div class="row refer_section_row">
-                    <div class="col-12 col-lg-4">
+                    <div data-aos="fade-right" class="col-12 col-lg-4">
                         <div class="refer_section_box">
                             <p class="refer_section_box_title">Submit Your First Referral</p>
                             <p class="refer_section_box_text">
@@ -65,7 +65,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div data-aos="zoom-in" class="col-12 col-lg-4">
                         <div class="refer_section_box">
                             <p class="refer_section_box_title">Your Own Management Portal</p>
                             <p class="refer_section_box_text">
@@ -74,7 +74,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div data-aos="fade-left" class="col-12 col-lg-4">
                         <div class="refer_section_box">
                             <p class="refer_section_box_title">Get Paid Big</p>
                             <p class="refer_section_box_text">
@@ -88,7 +88,7 @@
             <h2 class="refer_part_quest">Referral Partner Questions</h2>
         </div>
 
-        <div class="faq">
+        <div data-aos="zoom-in" class="faq">
             <div class="accordion">
                 @foreach($faqs as $faq)
                     <div class="accordion_item">

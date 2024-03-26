@@ -5,7 +5,7 @@
         <span class="line top_line"></span>
         <h2 class="content_title mb-0">ABOUT US</h2>
         <span class="line bottom_line"></span>
-        <div class="row mt-5">
+        <div data-aos="zoom-in" class="row mt-5">
             <div class="col-12 col-md-5">
                 <img src="{{asset('upload/about/'.$about->image)}}" class="img-fluid" alt="about">
             </div>
@@ -24,7 +24,7 @@
             <h2 class="our_services_title">our services</h2>
             <span class="line bottom_line float-end"></span>
             <div class="our_services_items">
-                <div class="our_services_item">
+                <div data-aos="flip-left" class="our_services_item">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6">
                             <p class="our_services_item_name">Account Audit & Market Research</p>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="our_services_item">
+                <div data-aos="flip-left" class="our_services_item">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 text-start">
                             <img src="../images/services/2.png" class="img-fluid" alt="">
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="our_services_item">
+                <div data-aos="flip-left" class="our_services_item">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6">
                             <p class="our_services_item_name">Account Audit & Market Research</p>
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="our_services_item">
+                <div data-aos="flip-left" class="our_services_item">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 text-start">
                             <img src="../images/services/4.png" class="img-fluid" alt="">

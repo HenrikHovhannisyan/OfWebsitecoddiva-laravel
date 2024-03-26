@@ -1,7 +1,7 @@
 @extends('layouts.header')
 
 @section('content')
-    <div class="container">
+    <div data-aos="zoom-in" class="container">
         <span class="line top_line"></span>
         <h2 class="content_title mb-0">CONTACT US</h2>
         <span class="line bottom_line"></span>
@@ -23,19 +23,23 @@
                 <form action="" method="post">
                     <div class="form-group">
                         <label for="name">Full name *</label>
-                        <input type="text" class="form-control contact_form_input" id="name" placeholder="John David" required>
+                        <input type="text" class="form-control contact_form_input" id="name" placeholder="John David"
+                               required>
                     </div>
                     <div class="form-group">
                         <label for="email">Your email *</label>
-                        <input type="email" class="form-control contact_form_input" id="email" placeholder="example@yourmail.com" required>
+                        <input type="email" class="form-control contact_form_input" id="email"
+                               placeholder="example@yourmail.com" required>
                     </div>
                     <div class="form-group">
                         <label for="company">Company *</label>
-                        <input type="text" class="form-control contact_form_input" id="company" placeholder="your company name here" required>
+                        <input type="text" class="form-control contact_form_input" id="company"
+                               placeholder="your company name here" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Message *</label>
-                        <textarea style="" class="form-control contact_form_input message" id="message" placeholder="Hello there, I would like to talk about how to..." required></textarea>
+                        <textarea style="" class="form-control contact_form_input message" id="message"
+                                  placeholder="Hello there, I would like to talk about how to..." required></textarea>
                     </div>
                     <div class="form-group text-end">
                         <button type="submit" class="contact_btn">SEND MESSAGE</button>
