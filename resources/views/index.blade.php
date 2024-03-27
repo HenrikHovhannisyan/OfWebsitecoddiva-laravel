@@ -109,7 +109,9 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 text-center pb-3">
-                <img src="../images/home_our_services.png" class="img-fluid" alt="">
+                <div class="geeks m-white ">
+                    <img src="../images/home_our_services.png" class="img-fluid" alt="">
+                </div>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="model_item">

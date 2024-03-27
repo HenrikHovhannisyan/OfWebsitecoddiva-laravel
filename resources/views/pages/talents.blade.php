@@ -55,7 +55,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 text-center pb-3">
-                    <img src="../images/talents/model.png" class="img-fluid" alt="">
+                    <div class="geeks m-white">
+                        <img src="../images/talents/model.png" class="img-fluid" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="model_item">
@@ -93,7 +95,9 @@
                 <div data-aos="fade-right" class="col-12 mb-5">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <img src="../images/talents/1.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/1.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_text">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -115,7 +119,9 @@
                                 themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
                                 who he is.
                             </p>
-                            <img src="../images/talents/2.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/2.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_title">
                                 HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
                             </p>
@@ -136,7 +142,9 @@
                                 themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
                                 who he is.
                             </p>
-                            <img src="../images/talents/3.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/3.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_title">
                                 HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
                             </p>
@@ -147,7 +155,9 @@
                             </p>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <img src="../images/talents/4.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/4.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_text">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -167,7 +177,9 @@
                 <div data-aos="fade-right" class="col-12 mb-5">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <img src="../images/talents/5.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/5.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_text">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -189,7 +201,9 @@
                                 themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
                                 who he is.
                             </p>
-                            <img src="../images/talents/6.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/6.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_title">
                                 HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
                             </p>
@@ -210,7 +224,9 @@
                                 themed photo shoots. His portfolio website has a playful vibe and shows visitors exactly
                                 who he is.
                             </p>
-                            <img src="../images/talents/7.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/7.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_title">
                                 HEIGHT 5' 8" BUST 32" WAIST 25" HIP 35"
                             </p>
@@ -221,7 +237,9 @@
                             </p>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <img src="../images/talents/8.png" class="img-fluid mb-3" alt="">
+                            <div class="geeks m-white m-0">
+                                <img src="../images/talents/8.png" class="img-fluid mb-3" alt="">
+                            </div>
                             <p class="talents_text">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown

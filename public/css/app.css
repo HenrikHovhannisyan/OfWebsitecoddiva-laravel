@@ -936,3 +936,7 @@ form {
 .geeks:hover img {
     transform: scale(1.2);
 }
+
+.m-white {
+    max-width: 420px;
+}
