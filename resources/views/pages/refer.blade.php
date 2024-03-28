@@ -48,7 +48,9 @@
                 </form>
             </div>
             <div class="col-12 col-lg-6 text-end">
-                <img src="../images/refer-1.png" class="img-fluid refer_img" alt="">
+                <div class="geeks">
+                    <img src="../images/refer-1.png" class="img-fluid refer_img" alt="">
+                </div>
             </div>
         </div>
 

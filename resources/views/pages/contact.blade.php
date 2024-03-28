@@ -7,7 +7,9 @@
         <span class="line bottom_line"></span>
         <div class="row mt-5">
             <div class="col-12 col-md-6">
-                <img src="../images/contact_us.png" class="img-fluid" alt="about">
+                <div class="geeks">
+                    <img src="../images/contact_us.png" class="img-fluid" alt="about">
+                </div>
                 <div class="mt-5">
                     <p class="text-white mb-0">Contact</p>
                     <p class="about_text">

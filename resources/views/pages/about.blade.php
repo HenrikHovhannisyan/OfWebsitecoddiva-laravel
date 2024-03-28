@@ -7,7 +7,9 @@
         <span class="line bottom_line"></span>
         <div data-aos="zoom-in" class="row mt-5">
             <div class="col-12 col-md-5">
-                <img src="{{asset('upload/about/'.$about->image)}}" class="img-fluid" alt="about">
+                <div class="geeks m-white">
+                    <img src="{{asset('upload/about/'.$about->image)}}" class="img-fluid" alt="about">
+                </div>
             </div>
             <div class="col-12 col-md-7">
                 <h3 class="about_title">{{$about->title}}</h3>
@@ -51,14 +53,18 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 text-end">
-                            <img src="../images/services/1.png" class="img-fluid" alt="">
+                            <div class="geeks m-white">
+                                <img src="../images/services/1.png" class="img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div data-aos="flip-left" class="our_services_item">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 text-start">
-                            <img src="../images/services/2.png" class="img-fluid" alt="">
+                            <div class="geeks m-white">
+                                <img src="../images/services/2.png" class="img-fluid" alt="">
+                            </div>
                         </div>
                         <div class="col-12 col-lg-6">
                             <p class="our_services_item_name">Brand & Growth Management</p>
@@ -105,14 +111,18 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 text-end">
-                            <img src="../images/services/3.png" class="img-fluid" alt="">
+                            <div class="geeks m-white">
+                                <img src="../images/services/3.png" class="img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div data-aos="flip-left" class="our_services_item">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 text-start">
-                            <img src="../images/services/4.png" class="img-fluid" alt="">
+                            <div class="geeks m-white">
+                                <img src="../images/services/4.png" class="img-fluid" alt="">
+                            </div>
                         </div>
                         <div class="col-12 col-lg-6">
                             <p class="our_services_item_name">24/7 Chatting Profit Service</p>
