@@ -701,6 +701,10 @@ form {
     background-color: #797979;
 }
 
+.accordion-item-header:hover {
+    background-color: #ffffff;
+}
+
 .accordion-item-header::after {
     content: "\002B";
     font-size: 2rem;
