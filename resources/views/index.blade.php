@@ -93,7 +93,13 @@
                     </div>
                 </div>
             </div>
-            <img src="../images/banner_bg.png" class="img-fluid" alt="">
+            <div class="banner_text_animation">
+                <img src="{{asset('../images/before.png')}}" alt="">
+                <p class="animation_text">
+                    Premier OnlyFans Management Agency for Real Growth
+                </p>
+                <img src="{{asset('../images/after.png')}}" alt="">
+            </div>
         </div>
     </section>
     <section data-aos="fade-right" id="home_info">

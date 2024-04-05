@@ -326,6 +326,37 @@ form {
     max-width: 1175px;
 }
 
+.banner_text_animation {
+    background: #292929;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-items: center;
+}
+
+.animation_text {
+    font-family: Alice, serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 29.72px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    animation: typing 10s steps(60, end);
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+
 /* End Gallery */
 
 /* Start About page */
@@ -832,9 +863,12 @@ form {
 
 /*=============== BREAKPOINTS ===============*/
 @media screen and (max-width: 1500px) {
-
     .home a {
         font-size: 16px;
+    }
+    .animation_text {
+        white-space: normal;
+        animation: unset;
     }
 }
 
@@ -863,6 +897,7 @@ form {
         font-size: 16px;
         line-height: 18px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -949,3 +984,5 @@ form {
 .m-white {
     max-width: 420px;
 }
+
+
