@@ -3,20 +3,93 @@
 @section('content')
     <section id="banner">
         <div class="container-fluid ps-0">
-            <div class="row">
-                <div class="col-lg-6 d-lg-block d-none">
-                    <img src="../images/banner.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
-                    <div>
-                        <p id="banner_title">Where Dreams Become Reality!</p>
-                        <p id="banner_text">At Model Management, we transform dreams into reality as a
-                            leading OnlyFans
-                            management company. We empower content creators and influencers worldwide to unlock their
-                            full
-                            earning potential.
-                        </p>
-                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply now</a>
+            <div class="owl-carousel owl-theme owl-loaded" id="owl-carousel-banner">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item">
+                            <div class="row">
+                                <div class="col-lg-6 d-lg-block d-none">
+                                    <img src="../images/banner/1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                    <div>
+                                        <p id="banner_title">Where Dreams Become Reality!</p>
+                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                            leading OnlyFans
+                                            management company. We empower content creators and influencers worldwide to
+                                            unlock their
+                                            full
+                                            earning potential.
+                                        </p>
+                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
+                                            now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="row">
+                                <div class="col-lg-6 d-lg-block d-none">
+                                    <img src="../images/banner/2.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                    <div>
+                                        <p id="banner_title">Where Dreams Become Reality!</p>
+                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                            leading OnlyFans
+                                            management company. We empower content creators and influencers worldwide to
+                                            unlock their
+                                            full
+                                            earning potential.
+                                        </p>
+                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
+                                            now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="row">
+                                <div class="col-lg-6 d-lg-block d-none">
+                                    <img src="../images/banner/3.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                    <div>
+                                        <p id="banner_title">Where Dreams Become Reality!</p>
+                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                            leading OnlyFans
+                                            management company. We empower content creators and influencers worldwide to
+                                            unlock their
+                                            full
+                                            earning potential.
+                                        </p>
+                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
+                                            now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="row">
+                                <div class="col-lg-6 d-lg-block d-none">
+                                    <img src="../images/banner/4.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                    <div>
+                                        <p id="banner_title">Where Dreams Become Reality!</p>
+                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                            leading OnlyFans
+                                            management company. We empower content creators and influencers worldwide to
+                                            unlock their
+                                            full
+                                            earning potential.
+                                        </p>
+                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
+                                            now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -151,7 +224,7 @@
             </p>
             <span class="line bottom_line float-end"></span>
             <div class="container-fluid mt-5">
-                <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-carousel owl-theme owl-loaded" id="owl-carousel-testimonials">
                     <div class="owl-stage-outer">
                         <div class="owl-stage">
                             <div class="owl-item">
@@ -212,5 +285,4 @@
             </div>
         </div>
     </section>
-
 @endsection

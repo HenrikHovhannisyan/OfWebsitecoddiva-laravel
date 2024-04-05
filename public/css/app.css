@@ -188,6 +188,15 @@ form {
     color: #FFFFFFCC;
 }
 
+#owl-carousel-banner .owl-nav {
+    display: none;
+}
+
+#owl-carousel-banner .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
 .home_owl_img {
     max-width: 220px;
 }
