@@ -13,8 +13,8 @@
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
-                                        <p id="banner_title">Where Dreams Become Reality!</p>
-                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_title">Where Dreams Become Reality!</p>
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
@@ -34,8 +34,8 @@
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
-                                        <p id="banner_title">Where Dreams Become Reality!</p>
-                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_title">Where Dreams Become Reality!</p>
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
@@ -55,8 +55,8 @@
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
-                                        <p id="banner_title">Where Dreams Become Reality!</p>
-                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_title">Where Dreams Become Reality!</p>
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
@@ -76,8 +76,8 @@
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
-                                        <p id="banner_title">Where Dreams Become Reality!</p>
-                                        <p id="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_title">Where Dreams Become Reality!</p>
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
