@@ -21,17 +21,20 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $faqs = Faq::all();
+
+        $blogs = blogs::orderBy('created_at', 'desc')->get();
+        $blog_one = $blogs[0];
         $info = Info::first();
         $models = models::all();
-        return view('index', compact('info', 'models', 'faqs'));
+        return view('index', compact('info', 'models', 'blog_one'));
     }
 
     public function about()
     {
+        $faqs = Faq::all();
         $about = About::first();
         $info = Info::first();
-        return view('pages.about', compact('info', 'about'));
+        return view('pages.about', compact('info', 'about', 'faqs'));
     }
 
     public function applyNow()

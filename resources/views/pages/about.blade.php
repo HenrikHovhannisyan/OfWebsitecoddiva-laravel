@@ -146,5 +146,30 @@
                 </div>
             </div>
         </div>
+
+        <section data-aos="fade-left" id="home_faq">
+            <p id="home_our_services_title">
+                FREQUENTLy asked questions
+            </p>
+            <span class="line bottom_line"></span>
+            <div class="row w-100 mt-5">
+                <div class="faq">
+                    <div class="accordion">
+                        @foreach($faqs as $faq)
+                            <div class="accordion_item">
+                                <div class="accordion-item-header">
+                                    {{$faq->question}}
+                                </div>
+                                <div class="accordion-item-body">
+                                    <div class="accordion-item-body-content">
+                                        {{$faq->answer}}
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection

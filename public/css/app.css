@@ -459,6 +459,10 @@ form {
     margin-bottom: 40px;
 }
 
+#home_blog > .truncate {
+    white-space: unset;
+}
+
 .blog_item_container_title {
     font-family: Alice, serif;
     font-size: 18px;

@@ -2,7 +2,7 @@
 
 @section('content')
     <section id="banner">
-        <div class="container-fluid ps-0">
+        <div class="container-fluid ps-0 pe-0">
             <div class="owl-carousel owl-theme owl-loaded" id="owl-carousel-banner">
                 <div class="owl-stage-outer">
                     <div class="owl-stage">
@@ -14,7 +14,8 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as
+                                            a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
@@ -35,7 +36,8 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as
+                                            a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
@@ -56,7 +58,8 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as
+                                            a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
@@ -77,7 +80,8 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At Model Management, we transform dreams into reality as a
+                                        <p class="banner_text">At Model Management, we transform dreams into reality as
+                                            a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
                                             unlock their
@@ -267,26 +271,24 @@
             </div>
         </div>
     </section>
-    <section data-aos="fade-left" id="home_faq">
-        <p id="home_our_services_title">
-            FREQUENTLy asked questions
-        </p>
+    <section id="blog">
+        <h2 class="content_title mb-0">BLOG</h2>
         <span class="line bottom_line"></span>
-        <div class="row w-100 mt-5">
-            <div class="faq">
-                <div class="accordion">
-                    @foreach($faqs as $faq)
-                        <div class="accordion_item">
-                            <div class="accordion-item-header">
-                                {{$faq->question}}
-                            </div>
-                            <div class="accordion-item-body">
-                                <div class="accordion-item-body-content">
-                                    {{$faq->answer}}
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
+        <div class="container-fluid mt-4">
+            <div class="row p-3">
+                <div class="col-12 col-lg-5 geeks p-0">
+                    <img src="{{asset('upload/blogs/'.$blog_one->blog_image)}}" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-7 blog_item_container">
+                    <div class="blog_date">
+                            <span>
+                                <i class="fa-solid fa-calendar-days"></i>
+                                {{ substr($blog_one->updated_at, 0, 10) }}
+                            </span>
+                    </div>
+                    <p class="blog_item_container_title">{{ $blog_one->blog_title }}</p>
+                    <div class="blog_item_container_text" id="home_blog">{!! html_entity_decode($blog_one->blog_description) !!}</div>
+                    <a href="{{ route('blog-show',$blog_one->id) }}" class="btn blog_btn mb-3">view</a>
                 </div>
             </div>
         </div>
