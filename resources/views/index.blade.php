@@ -1,7 +1,7 @@
 @extends('layouts.header')
 
 @section('content')
-    <section id="banner">
+    <section id="banner" class="pt-5">
         <div class="container-fluid ps-0 pe-0">
             <div class="owl-carousel owl-theme owl-loaded" id="owl-carousel-banner">
                 <div class="owl-stage-outer">
