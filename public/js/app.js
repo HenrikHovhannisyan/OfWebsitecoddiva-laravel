@@ -95,3 +95,8 @@ $(document).ready(function(){
 });
 
 AOS.init();
+
+$("#bars").click(function(){
+    $("#menu").toggleClass("d-none");
+    $("#content").toggleClass("w-100");
+});

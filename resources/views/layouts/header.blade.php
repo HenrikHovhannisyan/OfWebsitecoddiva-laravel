@@ -38,7 +38,7 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-md-3 bg-white menu">
+        <div class="col-12 col-md-3 bg-white menu" id="menu">
             <div class="">
                 <a href="{{ route('index') }}">
                     <img src="{{ asset('./images/logo.png') }}" width="108" alt="">
@@ -82,7 +82,10 @@
                                                                 </div>
                                                         </div>
 
-                                                        <div class="col-12 col-md-9 offset-md-3 content ps-0 pe-0 me-0">
+                                                        <div class="col-12 col-md-9 content ps-0 pe-0 m-auto me-0" id="content">
+                                                            <button type="button" class="btn btn-dark m-3" id="bars">
+                                                                <i class="fa-solid fa-bars"></i>
+                                                            </button>
                                                             @yield('content')
                                                         </div>
                                                 </div>

@@ -66,6 +66,17 @@ form {
     top: -5px;
     left: 0;
     margin-right: 5px;
+    animation: slidein 1s;
+}
+
+@keyframes slidein {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 65px;
+    }
 }
 
 .home {
