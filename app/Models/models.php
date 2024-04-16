@@ -10,7 +10,17 @@ class models extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'image'
+        'name',
+        'image',
+        'image1',
+        'info',
+        'height',
+        'bust',
+        'waist',
+        'hip',
+        'description',
+        'description1',
+        'description2',
     ];
 
 }

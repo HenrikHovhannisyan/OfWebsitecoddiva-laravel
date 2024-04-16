@@ -31,13 +31,69 @@
                     <div class="col-12">
                         <div class="form-group">
                             <strong>Name:</strong>
-                            <input type="text" name="name" class="form-control" placeholder="Name">
+                            <input type="text" name="name" class="form-control" placeholder="Name" required>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
                             <strong>Image:</strong>
-                            <input type="file" name="image" class="form-control" placeholder="image">
+                            <input type="file" name="image" class="form-control" placeholder="image" required>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <strong>Image 1:</strong>
+                            <input type="file" name="image1" class="form-control" placeholder="image 1" required>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <strong>Info:</strong>
+                            <input type="text" name="info" class="form-control" placeholder="Info" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <div class="form-group">
+                                <strong>Height:</strong>
+                                <input type="text" name="height" class="form-control" placeholder="Height" required>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="form-group">
+                                <strong>Bust:</strong>
+                                <input type="text" name="bust" class="form-control" placeholder="Bust" required>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="form-group">
+                                <strong>Waist:</strong>
+                                <input type="text" name="waist" class="form-control" placeholder="Waist" required>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="form-group">
+                                <strong>Hip:</strong>
+                                <input type="text" name="hip" class="form-control" placeholder="Hip" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <strong>Description:</strong>
+                            <textarea name="description" rows="10" class="form-control" placeholder="Description" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <strong>Description 1:</strong>
+                            <textarea name="description1" rows="10" class="form-control" placeholder="Description 1" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <strong>Description 2:</strong>
+                            <textarea name="description2" rows="10" class="form-control" placeholder="Description 2" required></textarea>
                         </div>
                     </div>
                     <div class="col-12 text-center mt-3">

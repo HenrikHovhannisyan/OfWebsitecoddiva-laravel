@@ -21,18 +21,22 @@
         <table class="table table-bordered mt-3">
             <tr>
                 <th>No</th>
-                <th>Image</th>
                 <th>Name</th>
+                <th>Image</th>
+                <th>Image 1</th>
                 <th width="280px">Action</th>
             </tr>
 
             @foreach ($models as $model)
                 <tr>
                     <td>{{$i++ + 1}}</td>
+                    <td>{{ $model->name }}</td>
                     <td>
                         <img src="{{asset('upload/models/'.$model->image)}}" width="100px">
                     </td>
-                    <td>{{ $model->name }}</td>
+                    <td>
+                        <img src="{{asset('upload/models/'.$model->image1)}}" width="100px">
+                    </td>
                     <td>
                         <form action="{{ route('models.destroy',$model->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('models.show',$model->id) }}">

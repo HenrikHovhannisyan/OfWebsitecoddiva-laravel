@@ -15,8 +15,17 @@ return new class extends Migration
     {
         Schema::create('models', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
+            $table->string('name');
             $table->string('image');
+            $table->string('image1');
+            $table->string('info');
+            $table->string('height');
+            $table->string('bust');
+            $table->string('waist');
+            $table->string('hip');
+            $table->text('description');
+            $table->text('description1');
+            $table->text('description2');
             $table->timestamps();
         });
     }
