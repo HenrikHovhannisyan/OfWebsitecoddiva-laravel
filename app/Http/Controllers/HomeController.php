@@ -85,7 +85,9 @@ class HomeController extends Controller
 
     public function talents()
     {
+        $talants = models::all();
+//        dd($talants);
         $info = Info::first();
-        return view('pages.talents', compact('info'));
+        return view('pages.talents', compact('talants','info'));
     }
 }

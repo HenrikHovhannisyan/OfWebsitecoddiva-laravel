@@ -363,7 +363,7 @@ form {
 }
 
 @keyframes typing {
-    from{
+    from {
         width: 0;
     }
 }
@@ -876,6 +876,15 @@ form {
     letter-spacing: 0.01em;
     text-align: left;
     max-width: 537px;
+    max-height: 190px;
+    overflow: hidden;
+}
+
+.talents_text_small {
+    max-height: 85px;
+}
+.talents_text_big {
+    max-height: 315px;
 }
 
 /* End Our Talents page */
@@ -885,6 +894,7 @@ form {
     .home a {
         font-size: 16px;
     }
+
     .animation_text {
         white-space: normal;
         animation: unset;
