@@ -124,7 +124,7 @@
                                     </p>
                                 </div>
                                 <div class="w-100 text-center">
-                                    <a href="#" class="btn btn-light talents_banner_btn">
+                                    <a href="{{ route('talent-show',$talent->id) }}" class="btn btn-light talents_banner_btn">
                                         View More
                                         <i class="fa-solid fa-right-long fa-beat text-dark ps-1"></i>
                                     </a>
@@ -163,7 +163,7 @@
                                     </p>
                                 </div>
                                 <div class="w-100 text-center">
-                                    <a href="#" class="btn btn-light talents_banner_btn">
+                                    <a href="{{ route('talent-show',$talent->id) }}" class="btn btn-light talents_banner_btn">
                                         View More
                                         <i class="fa-solid fa-right-long fa-beat text-dark ps-1"></i>
                                     </a>

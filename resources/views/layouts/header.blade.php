@@ -64,7 +64,7 @@
                         <div class="home" style="background-image: url('./images/menu/CONTACT.png')">
                             @elseif(isActiveRoute('blog') || isActiveRoute('blog-show'))
                                 <div class="home" style="background-image: url('./images/menu/BLOG.png')">
-                                    @elseif(isActiveRoute('about') || isActiveRoute('talents'))
+                                    @elseif(isActiveRoute('about') || isActiveRoute('talents') || isActiveRoute('talent-show'))
                                         <div class="home" style="background-image: url('./images/menu/ABOUT.png')">
                                             @elseif(isActiveRoute('apply-now'))
                                                 <div class="home"
@@ -82,7 +82,8 @@
                                                                 </div>
                                                         </div>
 
-                                                        <div class="col-12 col-md-9 content ps-0 pe-0 m-auto me-0" id="content">
+                                                        <div class="col-12 col-md-9 content ps-0 pe-0 m-auto me-0"
+                                                             id="content">
                                                             <button type="button" class="btn btn-dark m-3" id="bars">
                                                                 <i class="fa-solid fa-bars"></i>
                                                             </button>

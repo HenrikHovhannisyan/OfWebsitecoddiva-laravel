@@ -883,8 +883,46 @@ form {
 .talents_text_small {
     max-height: 85px;
 }
+
 .talents_text_big {
     max-height: 315px;
+}
+
+.talent_item_info {
+    font-family: Alice, serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80.01px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.talent_item_des {
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFFFFFCC;
+    margin-top: 40px;
+}
+
+#talent_item_des {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.talent_item_name {
+    font-family: Alice, serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.43px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    color: #ffffff;
 }
 
 /* End Our Talents page */
@@ -898,6 +936,11 @@ form {
     .animation_text {
         white-space: normal;
         animation: unset;
+    }
+
+    .talent_item_info {
+        font-size: 36px;
+        line-height: 45px;
     }
 }
 

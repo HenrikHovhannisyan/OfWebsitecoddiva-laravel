@@ -19,6 +19,7 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/refer', [HomeController::class, 'refer'])->name('refer');
 Route::get('/legal', [HomeController::class, 'legal'])->name('legal');
 Route::get('/talents', [HomeController::class, 'talents'])->name('talents');
+Route::get('/talent/{talent}', [HomeController::class, 'talentShow'])->name('talent-show');
 
 
 Auth::routes();
