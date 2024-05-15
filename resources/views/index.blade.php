@@ -243,13 +243,20 @@
                                     <div class="d-flex align-items-center">
                                         <img src="../images/testimonials/1.png" class="home_owl_img" alt="">
                                         <div class="ms-5">
-                                            <p class="home_owl_img_title">Sophie H.</p>
+                                            <p class="home_owl_img_title">Bella Thorne</p>
                                             <p class="home_owl_img_text mb-0">
-                                                Model Management turned my OnlyFans journey into a dream. Their coaching
-                                                calls
-                                                are a game-changer, and the networking opportunities are beyond my
-                                                wildest
-                                                expectations!
+                                                Bella Thorne is a captivating artist whose variety knows no boundaries.
+                                                Bella's genuine energy and honesty have captivated fans since her days
+                                                as a Disney Channel star, and she continues to do so in film and
+                                                television. Her ability to smoothly segue across genres demonstrates her
+                                                amazing versatility as an actress, while her adventurous narrative style
+                                                defies norms and stimulates innovation. Aside from her dramatic
+                                                abilities, Bella's commitment to activism and outspokenness on key
+                                                causes heightens her effect, making her not just a notable actress but
+                                                also a force for change. Working with Bella is an amazing experience
+                                                since she brings unrivaled devotion and enthusiasm to each project,
+                                                leaving an everlasting impression on the business and individuals who
+                                                are lucky enough.
                                             </p>
                                         </div>
                                     </div>
@@ -258,13 +265,60 @@
                                     <div class="d-flex align-items-center">
                                         <img src="../images/testimonials/2.png" class="home_owl_img" alt="">
                                         <div class="ms-5">
-                                            <p class="home_owl_img_title">Sophie H.</p>
+                                            <p class="home_owl_img_title">Cardi B</p>
                                             <p class="home_owl_img_text mb-0">
-                                                Model Management turned my OnlyFans journey into a dream. Their coaching
-                                                calls
-                                                are a game-changer, and the networking opportunities are beyond my
-                                                wildest
-                                                expectations!
+                                                Cardi B personifies current celebrity, transcending musical borders to
+                                                become a societal sensation. With her flamboyant demeanor, irresistible
+                                                personality, and chart-topping tunes, she has emerged as one of
+                                                entertainment's most powerful people. Aside from her remarkable musical
+                                                skill, Cardi B's uncompromising sincerity and vocal activism have
+                                                solidified her reputation as a voice for empowerment and social change.
+                                                Cardi B continues to fascinate audiences across the world, whether she's
+                                                dominating the charts with electric concerts or utilizing her platform
+                                                to elevate vital topics, making a lasting stamp on the industry and
+                                                altering the cultural landscape for future generations.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="../images/testimonials/2.png" class="home_owl_img" alt="">
+                                        <div class="ms-5">
+                                            <p class="home_owl_img_title">Blac Chyna</p>
+                                            <p class="home_owl_img_text mb-0">
+                                                Blac Chyna is a trailblazer who has fearlessly carved her own path in
+                                                the entertainment industry. With her magnetic presence, entrepreneurial
+                                                spirit, and unapologetic confidence, she has become an influential
+                                                figure in popular culture. From her beginnings as a model to her success
+                                                as a businesswoman and reality TV star, Blac Chyna has demonstrated
+                                                resilience and determination in the face of adversity. Her ability to
+                                                command attention and break barriers has inspired countless individuals
+                                                to embrace their unique identity and pursue their dreams with passion.
+                                                Collaborating with Blac Chyna is an inspiring experience, as she brings
+                                                a dynamic energy and unwavering commitment to everything she does,
+                                                leaving a lasting impression on those fortunate enough to work alongside
+                                                her.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="../images/testimonials/1.png" class="home_owl_img" alt="">
+                                        <div class="ms-5">
+                                            <p class="home_owl_img_title">Tana Mongeau</p>
+                                            <p class="home_owl_img_text mb-0">
+                                                "Tana Mongeau is a burst of imagination and sincerity. Her honest
+                                                approach to storytelling and unabashed attitude have catapulted her to
+                                                the forefront of internet entertainment. Tana bravely shares her life
+                                                with her audience, bringing them into her world with comedy, candor, and
+                                                an infectious energy that captivates millions. Aside from her
+                                                larger-than-life image, Tana's support for mental health awareness and
+                                                LGBTQ+ rights demonstrates her depth and compassion. Working with Tana
+                                                is an amazing experience since she brings unrivaled enthusiasm and
+                                                inventiveness to every project, leaving an everlasting impact on both
+                                                the digital world and the hearts of her loyal fans."
                                             </p>
                                         </div>
                                     </div>
