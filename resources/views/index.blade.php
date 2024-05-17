@@ -14,7 +14,7 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At Model Management, we transform dreams into reality as
+                                        <p class="banner_text">At XXXTC Model Management, we transform dreams into reality as
                                             a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
@@ -36,7 +36,7 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At Model Management, we transform dreams into reality as
+                                        <p class="banner_text">At XXXTC Model Management, we transform dreams into reality as
                                             a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to

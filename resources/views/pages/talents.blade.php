@@ -10,7 +10,7 @@
             <div id="talents_banner_content">
                 <p class="talents_banner_title">Become one of our talents</p>
                 <p class="talents_banner_description">
-                    Interested in joining Model Management? Either refer talent or apply now! We offer a free 15-minute
+                    Interested in  joining XXXTC Model Management? Either refer talent or apply now! We offer a free 15-minute
                     consultation to help you learn more about our services and how to get started.
                 </p>
                 <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn">APPLY NOW</a>
@@ -38,7 +38,7 @@
                             Step 2: Brand growth and management
                         </p>
                         <p class="model_item_description">
-                            At Banx, we closely monitor your accounts and tailor content strategies that help you
+                            At XXXTC, we closely monitor your accounts and tailor content strategies that help you
                             establish a consistent and profitable brand image. Many of our clients have seen an influx
                             of new subscribers every week that eagerly invest dollars to access exclusive content.
                         </p>
@@ -78,7 +78,7 @@
                             Step 5: Networking
                         </p>
                         <p class="model_item_description">
-                            ‍What truly sets Banx apart as an Only Fans management agency is our ability to give you
+                            ‍What truly sets XXXTC apart as an Only Fans management agency is our ability to give you
                             access to exclusive parties attended by the biggest celebrities on the planet. This way, you
                             can expand your network and discover growth opportunities.
                         </p>

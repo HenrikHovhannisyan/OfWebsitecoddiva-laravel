@@ -10,7 +10,7 @@
             <div id="talents_banner_content">
                 <p class="talents_banner_title">Become one of our talents</p>
                 <p class="talents_banner_description">
-                    Interested in joining Model Management? Either refer talent or apply now! We offer a free 15-minute
+                    Interested in joining XXXTC Model Management? Either refer talent or apply now! We offer a free 15-minute
                     consultation to help you learn more about our services and how to get started.
                 </p>
                 <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn">APPLY NOW</a>
