@@ -11,7 +11,7 @@
                                 <div class="col-lg-6 d-lg-block d-none">
                                     <img src="../images/banner/1.png" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
                                         <p class="banner_text">At XXXTC Model Management, we transform dreams into reality as
@@ -33,7 +33,7 @@
                                 <div class="col-lg-6 d-lg-block d-none">
                                     <img src="../images/banner/2.png" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
                                         <p class="banner_text">At XXXTC Model Management, we transform dreams into reality as
@@ -55,7 +55,7 @@
                                 <div class="col-lg-6 d-lg-block d-none">
                                     <img src="../images/banner/3.png" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
                                         <p class="banner_text">At Model Management, we transform dreams into reality as
@@ -77,7 +77,7 @@
                                 <div class="col-lg-6 d-lg-block d-none">
                                     <img src="../images/banner/4.png" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center">
+                                <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
                                         <p class="banner_text">At Model Management, we transform dreams into reality as
@@ -240,9 +240,9 @@
                         <div class="owl-stage-outer">
                             <div class="owl-stage">
                                 <div class="owl-item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-block d-lg-flex align-items-center">
                                         <img src="../images/testimonials/1.png" class="home_owl_img" alt="">
-                                        <div class="ms-5">
+                                        <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Bella Thorne</p>
                                             <p class="home_owl_img_text mb-0">
                                                 Bella Thorne is a captivating artist whose variety knows no boundaries.
@@ -262,9 +262,9 @@
                                     </div>
                                 </div>
                                 <div class="owl-item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-block d-lg-flex align-items-center">
                                         <img src="../images/testimonials/2.png" class="home_owl_img" alt="">
-                                        <div class="ms-5">
+                                        <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Cardi B</p>
                                             <p class="home_owl_img_text mb-0">
                                                 Cardi B personifies current celebrity, transcending musical borders to
@@ -282,9 +282,9 @@
                                     </div>
                                 </div>
                                 <div class="owl-item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-block d-lg-flex align-items-center">
                                         <img src="../images/testimonials/2.png" class="home_owl_img" alt="">
-                                        <div class="ms-5">
+                                        <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Blac Chyna</p>
                                             <p class="home_owl_img_text mb-0">
                                                 Blac Chyna is a trailblazer who has fearlessly carved her own path in
@@ -304,9 +304,9 @@
                                     </div>
                                 </div>
                                 <div class="owl-item">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-block d-lg-flex align-items-center">
                                         <img src="../images/testimonials/1.png" class="home_owl_img" alt="">
-                                        <div class="ms-5">
+                                        <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Tana Mongeau</p>
                                             <p class="home_owl_img_text mb-0">
                                                 "Tana Mongeau is a burst of imagination and sincerity. Her honest

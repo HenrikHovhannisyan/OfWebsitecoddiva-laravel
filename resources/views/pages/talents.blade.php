@@ -28,7 +28,7 @@
                             Step 1: Comprehensive account audit
                         </p>
                         <p class="model_item_description">
-                            ‍Say goodbye to fake followers and hello to real, engaged fans! We kickstart your journey as
+                            ‍Say goodbye to fake followers and hello to real, engaged fans! We kick-start your journey as
                             a new client by conducting an in-depth social media account audit. This allows us to
                             identify and resolve issues that may limit your potential to make money.
                         </p>

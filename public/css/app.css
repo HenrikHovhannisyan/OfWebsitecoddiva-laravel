@@ -103,7 +103,7 @@ form {
     font-family: Alice, serif;
     font-size: 70px;
     font-weight: 400;
-    line-height: 105px;
+    line-height: 75px;
     letter-spacing: 0.04em;
     text-align: center;
     color: #ffffff;
@@ -891,7 +891,7 @@ form {
 
 .talent_item_info {
     font-family: Alice, serif;
-    font-size: 70px;
+    font-size: 56px;
     font-weight: 400;
     line-height: 80.01px;
     letter-spacing: 0.04em;
@@ -946,6 +946,9 @@ form {
 }
 
 @media screen and (max-width: 992px) {
+    .home_owl_img_title {
+        margin-top: 15px;
+    }
     .home {
         display: grid;
         justify-content: start;
@@ -978,6 +981,10 @@ form {
         font-size: 38px;
         line-height: 40px;
         margin-top: 20px;
+    }
+
+    .baner_btn {
+        text-align: center;
     }
 
     .banner_btn {
