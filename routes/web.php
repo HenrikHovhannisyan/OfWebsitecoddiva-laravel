@@ -8,6 +8,7 @@ use App\Http\Controllers\FaqController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InfoController;
 use App\Http\Controllers\ModelsController;
+use App\Http\Controllers\ReferFormController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -22,6 +23,7 @@ Route::get('/legal', [HomeController::class, 'legal'])->name('legal');
 Route::get('/talents', [HomeController::class, 'talents'])->name('talents');
 Route::get('/talent/{talent}', [HomeController::class, 'talentShow'])->name('talent-show');
 Route::post('/send-email', [ContactFormController::class, 'sendEmail'])->name('send-email');
+Route::post('/refer-send-email', [ReferFormController::class, 'sendEmail'])->name('refer-send-email');
 
 
 Auth::routes();

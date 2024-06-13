@@ -11,36 +11,30 @@
                 <p class="refer_text">
                     Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
                 </p>
-                <form action="" method="post">
+                <form action="{{ route('refer-send-email') }}" method="post">
+                    @csrf
                     <p class="refer_form_title">Your Details</p>
                     <div class="form-group">
-                        <input type="text" class="form-control contact_form_input" placeholder="full name *"
-                               required>
+                        <input type="text" name="your_full_name" class="form-control contact_form_input" placeholder="Full Name *" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control contact_form_input" placeholder="your email *"
-                               required>
+                        <input type="email" name="your_email" class="form-control contact_form_input" placeholder="Your Email *" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control contact_form_input" placeholder="mobile number *"
-                               required>
+                        <input type="text" name="your_mobile_number" class="form-control contact_form_input" placeholder="Mobile Number *" required>
                     </div>
-                    <p class="refer_form_title">Your Friend’s details</p>
+                    <p class="refer_form_title">Your Friend’s Details</p>
                     <div class="form-group">
-                        <input type="text" class="form-control contact_form_input" placeholder="full name *"
-                               required>
+                        <input type="text" name="friend_full_name" class="form-control contact_form_input" placeholder="Friend's Full Name *" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control contact_form_input" placeholder="your email *"
-                               required>
+                        <input type="email" name="friend_email" class="form-control contact_form_input" placeholder="Friend's Email *" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control contact_form_input" placeholder="mobile number *"
-                               required>
+                        <input type="text" name="friend_mobile_number" class="form-control contact_form_input" placeholder="Friend's Mobile Number *" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control contact_form_input" placeholder="instagram *"
-                               required>
+                        <input type="text" name="friend_instagram" class="form-control contact_form_input" placeholder="Friend's Instagram *" required>
                     </div>
                     <div class="form-group text-end mb-3">
                         <button type="submit" class="contact_btn">SEND MESSAGE</button>
