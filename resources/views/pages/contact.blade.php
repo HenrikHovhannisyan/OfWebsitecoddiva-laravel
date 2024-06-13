@@ -22,25 +22,26 @@
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <form action="" method="post">
+                <form action="{{ route('send-email') }}" method="post">
+                    @csrf
                     <div class="form-group">
                         <label for="name">Full name *</label>
-                        <input type="text" class="form-control contact_form_input" id="name" placeholder="John David"
+                        <input type="text" class="form-control contact_form_input" id="name" name="name" placeholder="John David"
                                required>
                     </div>
                     <div class="form-group">
                         <label for="email">Your email *</label>
-                        <input type="email" class="form-control contact_form_input" id="email"
+                        <input type="email" class="form-control contact_form_input" id="email" name="email"
                                placeholder="example@yourmail.com" required>
                     </div>
                     <div class="form-group">
                         <label for="company">Company *</label>
-                        <input type="text" class="form-control contact_form_input" id="company"
+                        <input type="text" class="form-control contact_form_input" id="company" name="company"
                                placeholder="your company name here" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Message *</label>
-                        <textarea style="" class="form-control contact_form_input message" id="message"
+                        <textarea style="" class="form-control contact_form_input message" id="message" name="message"
                                   placeholder="Hello there, I would like to talk about how to..." required></textarea>
                     </div>
                     <div class="form-group text-end">

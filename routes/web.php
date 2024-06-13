@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogsController;
+use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InfoController;
@@ -20,6 +21,7 @@ Route::get('/refer', [HomeController::class, 'refer'])->name('refer');
 Route::get('/legal', [HomeController::class, 'legal'])->name('legal');
 Route::get('/talents', [HomeController::class, 'talents'])->name('talents');
 Route::get('/talent/{talent}', [HomeController::class, 'talentShow'])->name('talent-show');
+Route::post('/send-email', [ContactFormController::class, 'sendEmail'])->name('send-email');
 
 
 Auth::routes();
