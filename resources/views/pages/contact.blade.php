@@ -1,6 +1,12 @@
 @extends('layouts.header')
 
 @section('content')
+    @if(session('success'))
+        <div class="alert alert-success alert-dismissible fade show ms-3 me-3" role="alert">
+            {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
     <div data-aos="zoom-in" class="container">
         <span class="line top_line"></span>
         <h2 class="content_title mb-0">CONTACT US</h2>
