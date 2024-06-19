@@ -21,31 +21,53 @@
                     @csrf
                     <p class="refer_form_title">Your Details</p>
                     <div class="form-group">
-                        <input type="text" name="your_full_name" class="form-control contact_form_input" placeholder="Full Name *" required>
+                        <input type="text" name="your_full_name" class="form-control contact_form_input" placeholder="Full Name *" value="{{ old('your_full_name') }}" required>
+                        @error('your_full_name')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group">
-                        <input type="email" name="your_email" class="form-control contact_form_input" placeholder="Your Email *" required>
+                        <input type="email" name="your_email" class="form-control contact_form_input" placeholder="Your Email *" value="{{ old('your_email') }}" required>
+                        @error('your_email')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group">
-                        <input type="text" name="your_mobile_number" class="form-control contact_form_input" placeholder="Mobile Number *" required>
+                        <input type="text" name="your_mobile_number" class="form-control contact_form_input" placeholder="Mobile Number *" value="{{ old('your_mobile_number') }}" required>
+                        @error('your_mobile_number')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <p class="refer_form_title">Your Friend’s Details</p>
                     <div class="form-group">
-                        <input type="text" name="friend_full_name" class="form-control contact_form_input" placeholder="Friend's Full Name *" required>
+                        <input type="text" name="friend_full_name" class="form-control contact_form_input" placeholder="Friend's Full Name *" value="{{ old('friend_full_name') }}" required>
+                        @error('friend_full_name')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group">
-                        <input type="email" name="friend_email" class="form-control contact_form_input" placeholder="Friend's Email *" required>
+                        <input type="email" name="friend_email" class="form-control contact_form_input" placeholder="Friend's Email *" value="{{ old('friend_email') }}" required>
+                        @error('friend_email')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group">
-                        <input type="text" name="friend_mobile_number" class="form-control contact_form_input" placeholder="Friend's Mobile Number *" required>
+                        <input type="text" name="friend_mobile_number" class="form-control contact_form_input" placeholder="Friend's Mobile Number *" value="{{ old('friend_mobile_number') }}" required>
+                        @error('friend_mobile_number')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group">
-                        <input type="text" name="friend_instagram" class="form-control contact_form_input" placeholder="Friend's Instagram *" required>
+                        <input type="text" name="friend_instagram" class="form-control contact_form_input" placeholder="Friend's Instagram *" value="{{ old('friend_instagram') }}" required>
+                        @error('friend_instagram')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group text-end mb-3">
                         <button type="submit" class="contact_btn">SEND MESSAGE</button>
                     </div>
                 </form>
+
             </div>
             <div class="col-12 col-lg-6 text-end">
                 <div class="geeks">
