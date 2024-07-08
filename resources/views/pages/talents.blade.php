@@ -6,7 +6,7 @@
         <h2 class="content_title mb-0">Our talents</h2>
         <span class="line bottom_line"></span>
         <section data-aos="zoom-in" id="talents_banner">
-            <img src="../images/talents/talents_banner.png" class="img-fluid refer_img" alt="">
+            <img src="{{ asset('images/talents/talents_banner.png') }}" class="img-fluid refer_img" alt="">
             <div id="talents_banner_content">
                 <p class="talents_banner_title">Become one of our talents</p>
                 <p class="talents_banner_description">
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-12 col-lg-4 text-center pb-3">
                     <div class="geeks m-white">
-                        <img src="../images/talents/model.png" class="img-fluid" alt="">
+                        <img src="{{ asset('images/talents/model.png') }}" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">

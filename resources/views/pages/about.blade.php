@@ -54,7 +54,7 @@
                         </div>
                         <div class="col-12 col-lg-6 text-end">
                             <div class="geeks m-white">
-                                <img src="../images/services/1.png" class="img-fluid" alt="">
+                                <img src="{{ asset("images/services/1.png") }}" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 text-start">
                             <div class="geeks m-white">
-                                <img src="../images/services/2.png" class="img-fluid" alt="">
+                                <img src="{{ asset("images/services/2.png") }}" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
@@ -112,7 +112,7 @@
                         </div>
                         <div class="col-12 col-lg-6 text-end">
                             <div class="geeks m-white">
-                                <img src="../images/services/3.png" class="img-fluid" alt="">
+                                <img src="{{ asset("images/services/3.png") }}" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 text-start">
                             <div class="geeks m-white">
-                                <img src="../images/services/4.png" class="img-fluid" alt="">
+                                <img src="{{ asset("images/services/4.png") }}" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">

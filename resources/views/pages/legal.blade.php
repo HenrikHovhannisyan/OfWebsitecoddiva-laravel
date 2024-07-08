@@ -71,7 +71,7 @@
                     terms and conditions stated herein.
                 </p>
             </div>
-            <img src="../images/legal.png" class="legal_img" alt="">
+            <img src="{{ asset('images/legal.png') }}" class="legal_img" alt="">
         </div>
     </div>
 @endsection

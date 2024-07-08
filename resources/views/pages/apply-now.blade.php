@@ -6,7 +6,7 @@
         <h2 class="content_title mb-0">APPLY NOW</h2>
         <span class="line bottom_line"></span>
         <section data-aos="zoom-in" id="talents_banner">
-            <img src="../images/apply_banner.png" class="img-fluid refer_img" alt="">
+            <img src="{{ asset('images/apply_banner.png') }}" class="img-fluid refer_img" alt="">
             <div id="talents_banner_content">
                 <p class="talents_banner_title">Become one of our talents</p>
                 <p class="talents_banner_description">
@@ -25,7 +25,7 @@
                 <div class="container-fluid mt-5">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/1.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/1.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">Comprehensive Services</p>
                                 <p class="home_info_item_text mb-0">
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/2.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/2.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">Lucrative Referral Program</p>
                                 <p class="home_info_item_text mb-0">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/3.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/3.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">Exclusive Incentives</p>
                                 <p class="home_info_item_text mb-0">
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/4.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/4.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">A-List Networking</p>
                                 <p class="home_info_item_text mb-0">

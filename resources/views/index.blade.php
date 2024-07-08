@@ -9,7 +9,7 @@
                         <div class="owl-item">
                             <div class="row">
                                 <div class="col-lg-6 d-lg-block d-none">
-                                    <img src="../images/banner/1.png" class="img-fluid" alt="">
+                                    <img src="{{ asset('images/banner/1.png') }}" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
@@ -31,7 +31,7 @@
                         <div class="owl-item">
                             <div class="row">
                                 <div class="col-lg-6 d-lg-block d-none">
-                                    <img src="../images/banner/2.png" class="img-fluid" alt="">
+                                    <img src="{{ asset('images/banner/2.png') }}" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
@@ -53,7 +53,7 @@
                         <div class="owl-item">
                             <div class="row">
                                 <div class="col-lg-6 d-lg-block d-none">
-                                    <img src="../images/banner/3.png" class="img-fluid" alt="">
+                                    <img src="{{ asset('images/banner/3.png') }}" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
@@ -75,7 +75,7 @@
                         <div class="owl-item">
                             <div class="row">
                                 <div class="col-lg-6 d-lg-block d-none">
-                                    <img src="../images/banner/4.png" class="img-fluid" alt="">
+                                    <img src="{{ asset('images/banner/4.png') }}" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
@@ -98,11 +98,11 @@
                 </div>
             </div>
             <div class="banner_text_animation">
-                <img src="{{asset('../images/before.png')}}" alt="">
+                <img src="{{asset('images/before.png')}}" alt="">
                 <p class="animation_text">
                     Premier OnlyFans Management Agency for Real Growth
                 </p>
-                <img src="{{asset('../images/after.png')}}" alt="">
+                <img src="{{asset('images/after.png')}}" alt="">
             </div>
         </section>
         <section data-aos="fade-right" id="home_info">
@@ -114,7 +114,7 @@
                 <div class="container-fluid mt-5">
                     <div class="row w-100">
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/1.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/1.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">Comprehensive Services</p>
                                 <p class="home_info_item_text mb-0">
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/2.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/2.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">Lucrative Referral Program</p>
                                 <p class="home_info_item_text mb-0">
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/3.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/3.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">Exclusive Incentives</p>
                                 <p class="home_info_item_text mb-0">
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 d-flex mb-5">
-                            <img src="../images/home_info/4.png" class="img-fluid me-3" alt="">
+                            <img src="{{ asset('images/home_info/4.png') }}" class="img-fluid me-3" alt="">
                             <div>
                                 <p class="home_info_item_title">A-List Networking</p>
                                 <p class="home_info_item_text mb-0">
@@ -194,7 +194,7 @@
                 </div>
                 <div class="col-12 col-lg-4 text-center pb-3">
                     <div class="geeks m-white ">
-                        <img src="../images/home_our_services.png" class="img-fluid" alt="">
+                        <img src="{{ asset('images/home_our_services.png') }}" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
@@ -241,7 +241,7 @@
                             <div class="owl-stage">
                                 <div class="owl-item">
                                     <div class="d-block d-lg-flex align-items-center">
-                                        <img src="../images/testimonials/1.png" class="home_owl_img" alt="">
+                                        <img src="{{ asset('images/testimonials/1.png') }}" class="home_owl_img" alt="">
                                         <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Bella Thorne</p>
                                             <p class="home_owl_img_text mb-0">
@@ -263,7 +263,7 @@
                                 </div>
                                 <div class="owl-item">
                                     <div class="d-block d-lg-flex align-items-center">
-                                        <img src="../images/testimonials/2.png" class="home_owl_img" alt="">
+                                        <img src="{{ asset('images/testimonials/2.png') }}" class="home_owl_img" alt="">
                                         <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Cardi B</p>
                                             <p class="home_owl_img_text mb-0">
@@ -283,7 +283,7 @@
                                 </div>
                                 <div class="owl-item">
                                     <div class="d-block d-lg-flex align-items-center">
-                                        <img src="../images/testimonials/2.png" class="home_owl_img" alt="">
+                                        <img src="{{ asset('images/testimonials/2.png') }}" class="home_owl_img" alt="">
                                         <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Blac Chyna</p>
                                             <p class="home_owl_img_text mb-0">
@@ -305,7 +305,7 @@
                                 </div>
                                 <div class="owl-item">
                                     <div class="d-block d-lg-flex align-items-center">
-                                        <img src="../images/testimonials/1.png" class="home_owl_img" alt="">
+                                        <img src="{{ asset('images/testimonials/1.png') }}" class="home_owl_img" alt="">
                                         <div class="ms-0 ms-lg-5">
                                             <p class="home_owl_img_title">Tana Mongeau</p>
                                             <p class="home_owl_img_text mb-0">

@@ -71,7 +71,7 @@
             </div>
             <div class="col-12 col-lg-6 text-end">
                 <div class="geeks">
-                    <img src="../images/refer-1.png" class="img-fluid refer_img" alt="">
+                    <img src="{{ asset('images/refer-1.png') }}" class="img-fluid refer_img" alt="">
                 </div>
             </div>
         </div>
