@@ -105,11 +105,11 @@
                                         <img src="{{asset('upload/models/'.$talent->image1)}}" class="img-fluid mb-3"
                                              alt="">
                                     </div>
-                                    <p class="talents_title">
+                                    {{--<p class="talents_title">
                                         HEIGHT {{ $talent->height }}" BUST {{ $talent->bust }}"
                                         WAIST {{ $talent->waist }}"
                                         HIP {{ $talent->hip }}"
-                                    </p>
+                                    </p>--}}
                                     <p class="talents_text talents_text_small">
                                         {{ $talent->description2 }}
                                     </p>
@@ -153,11 +153,11 @@
                                         <img src="{{asset('upload/models/'.$talent->image1)}}" class="img-fluid mb-3"
                                              alt="">
                                     </div>
-                                    <p class="talents_title">
-                                        HEIGHT {{ $talent->height }}" BUST {{ $talent->bust }}"
-                                        WAIST {{ $talent->waist }}"
-                                        HIP {{ $talent->hip }}"
-                                    </p>
+{{--                                    <p class="talents_title">--}}
+{{--                                        HEIGHT {{ $talent->height }}" BUST {{ $talent->bust }}"--}}
+{{--                                        WAIST {{ $talent->waist }}"--}}
+{{--                                        HIP {{ $talent->hip }}"--}}
+{{--                                    </p>--}}
                                     <p class="talents_text talents_text_small">
                                         {{ $talent->description2 }}
                                     </p>
