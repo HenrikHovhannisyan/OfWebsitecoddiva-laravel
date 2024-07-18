@@ -29,6 +29,9 @@ class HomeController extends Controller
         return view('index', compact('info', 'models', 'blog_one'));
     }
 
+    /**
+     * @return Factory|View
+     */
     public function about()
     {
         $faqs = Faq::all();
@@ -37,12 +40,18 @@ class HomeController extends Controller
         return view('pages.about', compact('info', 'about', 'faqs'));
     }
 
+    /**
+     * @return Factory|View
+     */
     public function applyNow()
     {
         $info = Info::first();
         return view('pages.apply-now', compact('info'));
     }
 
+    /**
+     * @return Factory|View
+     */
     public function blog()
     {
         $blogs = blogs::orderBy('created_at', 'desc')->get();
@@ -64,12 +73,18 @@ class HomeController extends Controller
         return view('pages.blog-item', compact('info', 'blog'));
     }
 
+    /**
+     * @return Factory|View
+     */
     public function contact()
     {
         $info = Info::first();
         return view('pages.contact', compact('info'));
     }
 
+    /**
+     * @return Factory|View
+     */
     public function refer()
     {
         $faqs = Faq::all();
@@ -77,21 +92,42 @@ class HomeController extends Controller
         return view('pages.refer', compact('info', 'faqs'));
     }
 
+    /**
+     * @return Factory|View
+     */
     public function legal()
     {
         $info = Info::first();
         return view('pages.legal', compact('info'));
     }
 
+    /**
+     * @return Factory|View
+     */
     public function talents()
     {
         $talants = models::all();
         $info = Info::first();
         return view('pages.talents', compact('talants','info'));
     }
+
+    /**
+     * @param models $talent
+     * @return Factory|View
+     */
     public function talentShow(models $talent)
     {
         $info = Info::first();
         return view('pages.talent-item', compact('info', 'talent'));
+    }
+
+    /**
+     * @param models $talent
+     * @return Factory|View
+     */
+    public function servicesShow(models $talent)
+    {
+        $info = Info::first();
+        return view('pages.services-item', compact('info'));
     }
 }

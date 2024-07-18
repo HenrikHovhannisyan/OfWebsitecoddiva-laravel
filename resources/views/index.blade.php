@@ -172,6 +172,7 @@
                             unparalleled
                             OnlyFans management services.
                         </p>
+                        <a href="{{ route('services-show') }}" class="text-light">View</a>
                     </div>
                     <div class="model_item">
                         <p class="model_item_title">
@@ -181,6 +182,7 @@
                             Elevate your online presence with our in-depth analysis of your social profiles. We identify
                             opportunities for improvement and craft a custom content strategy tailored to your brand.
                         </p>
+                        <a href="{{ route('services-show') }}" class="text-light">View</a>
                     </div>
                     <div class="model_item">
                         <p class="model_item_title">
@@ -190,6 +192,7 @@
                             Boost your brand and confidence through our daily and weekly growth and coaching calls.
                             Personalized guidance to take your content creation to new heights.
                         </p>
+                        <a href="{{ route('services-show') }}" class="text-light">View</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 text-center pb-3">
@@ -207,6 +210,7 @@
                             and
                             prestigious fashion shows.
                         </p>
+                        <a href="{{ route('services-show') }}" class="text-light">View</a>
                     </div>
                     <div class="model_item">
                         <p class="model_item_title">
@@ -216,6 +220,7 @@
                             Let us handle your direct messages round the clock, 365 days a year. We're your constant
                             support, managing your account with precision.
                         </p>
+                        <a href="{{ route('services-show') }}" class="text-light">View</a>
                     </div>
                     <div class="model_item">
                         <p class="model_item_title">
@@ -225,6 +230,7 @@
                             Our 24/7 live engagement hyper-growth strategy ensures a surge in likes and followers across
                             Instagram, OnlyFans, TikTok, Twitter, and Facebook.
                         </p>
+                        <a href="{{ route('services-show') }}" class="text-light">View</a>
                     </div>
                 </div>
             </div>
