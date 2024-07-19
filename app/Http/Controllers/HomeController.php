@@ -127,12 +127,12 @@ class HomeController extends Controller
     }
 
     /**
-     * @param models $talent
+     * @param services $service
      * @return Factory|View
      */
-    public function servicesShow(models $talent)
+    public function servicesShow(services $service)
     {
         $info = Info::first();
-        return view('pages.services-item', compact('info'));
+        return view('pages.services-item', compact('info', 'service'));
     }
 }
