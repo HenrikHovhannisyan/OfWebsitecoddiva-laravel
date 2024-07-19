@@ -58,7 +58,7 @@
                        class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                 </div>
             </div>
-            @if(isActiveRoute('index'))
+            @if(isActiveRoute('index') || isActiveRoute('services-show'))
                 <div class="home" style="background-image: url('./images/menu/HOME.png')">
                     @elseif(isActiveRoute('contact'))
                         <div class="home" style="background-image: url('./images/menu/CONTACT.png')">
