@@ -7,6 +7,7 @@ use App\Models\blogs;
 use App\Models\Faq;
 use App\Models\Info;
 use App\Models\models;
+use App\Models\services;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -26,7 +27,11 @@ class HomeController extends Controller
         $blog_one = $blogs[0];
         $info = Info::first();
         $models = models::all();
-        return view('index', compact('info', 'models', 'blog_one'));
+        $services = services::take(6)->get();
+        $chunks = $services->chunk(3);
+        $firstChunk = $chunks->get(0);
+        $secondChunk = $chunks->get(1);
+        return view('index', compact('info', 'models', 'blog_one', 'firstChunk', 'secondChunk'));
     }
 
     /**

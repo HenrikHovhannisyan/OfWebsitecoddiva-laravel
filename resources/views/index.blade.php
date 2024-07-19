@@ -14,7 +14,8 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At XXXTC Model Management, we transform dreams into reality as
+                                        <p class="banner_text">At XXXTC Model Management, we transform dreams into
+                                            reality as
                                             a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
@@ -36,7 +37,8 @@
                                 <div class="col-12 col-lg-6 ps-4 d-flex align-items-center baner_btn">
                                     <div>
                                         <p class="banner_title">Where Dreams Become Reality!</p>
-                                        <p class="banner_text">At XXXTC Model Management, we transform dreams into reality as
+                                        <p class="banner_text">At XXXTC Model Management, we transform dreams into
+                                            reality as
                                             a
                                             leading OnlyFans
                                             management company. We empower content creators and influencers worldwide to
@@ -163,37 +165,18 @@
             <span class="line bottom_line"></span>
             <div class="row w-100 mt-5">
                 <div class="col-12 col-lg-4">
-                    <div class="model_item">
-                        <p class="model_item_title">
-                            Subscriber Surge
-                        </p>
-                        <p class="model_item_description">
-                            Experience a continuous influx of hundreds of new subscribers each week with our
-                            unparalleled
-                            OnlyFans management services.
-                        </p>
-                        <a href="{{ route('services-show') }}" class="text-light">View</a>
-                    </div>
-                    <div class="model_item">
-                        <p class="model_item_title">
-                            Account Audit & Market Research
-                        </p>
-                        <p class="model_item_description">
-                            Elevate your online presence with our in-depth analysis of your social profiles. We identify
-                            opportunities for improvement and craft a custom content strategy tailored to your brand.
-                        </p>
-                        <a href="{{ route('services-show') }}" class="text-light">View</a>
-                    </div>
-                    <div class="model_item">
-                        <p class="model_item_title">
-                            Daily + Weekly Coaching Calls
-                        </p>
-                        <p class="model_item_description">
-                            Boost your brand and confidence through our daily and weekly growth and coaching calls.
-                            Personalized guidance to take your content creation to new heights.
-                        </p>
-                        <a href="{{ route('services-show') }}" class="text-light">View</a>
-                    </div>
+                    @foreach($firstChunk as $service)
+                        <div class="model_item">
+                            <p class="model_item_title">
+                                {{ $service->title }}
+                            </p>
+                            <p class="model_item_description">
+                                {!! html_entity_decode($service->description) !!}
+                            </p>
+                            <a href="{{ route('services-show',$service->id) }}" class="text-light">View</a>
+
+                        </div>
+                    @endforeach
                 </div>
                 <div class="col-12 col-lg-4 text-center pb-3">
                     <div class="geeks m-white ">
@@ -201,37 +184,18 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <div class="model_item">
-                        <p class="model_item_title">
-                            Networking & Event Management
-                        </p>
-                        <p class="model_item_description">
-                            Step into the spotlight by rubbing shoulders with A-listers at the hottest global parties
-                            and
-                            prestigious fashion shows.
-                        </p>
-                        <a href="{{ route('services-show') }}" class="text-light">View</a>
-                    </div>
-                    <div class="model_item">
-                        <p class="model_item_title">
-                            24/7 Chatting Profit Service
-                        </p>
-                        <p class="model_item_description">
-                            Let us handle your direct messages round the clock, 365 days a year. We're your constant
-                            support, managing your account with precision.
-                        </p>
-                        <a href="{{ route('services-show') }}" class="text-light">View</a>
-                    </div>
-                    <div class="model_item">
-                        <p class="model_item_title">
-                            Brand & Growth Management
-                        </p>
-                        <p class="model_item_description">
-                            Our 24/7 live engagement hyper-growth strategy ensures a surge in likes and followers across
-                            Instagram, OnlyFans, TikTok, Twitter, and Facebook.
-                        </p>
-                        <a href="{{ route('services-show') }}" class="text-light">View</a>
-                    </div>
+                    @foreach($secondChunk  as $service)
+                        <div class="model_item">
+                            <p class="model_item_title">
+                                {{ $service->title }}
+                            </p>
+                            <p class="model_item_description">
+                                {!! html_entity_decode($service->description) !!}
+                            </p>
+                            <a href="{{ route('services-show',$service->id) }}" class="text-light">View</a>
+
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </section>
