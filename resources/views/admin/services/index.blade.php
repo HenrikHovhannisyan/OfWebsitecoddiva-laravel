@@ -34,11 +34,11 @@
                     </td>
                     <td>{{ $service->title }}</td>
                     <td>
-                        <form action="{{ route('services.destroy',$service->id) }}" method="POST">
-                            <a class="btn btn-success" href="{{ route('services.show',$service->id) }}">
+                        <form action="{{ route('services.destroy',$service->slug) }}" method="POST">
+                            <a class="btn btn-success" href="{{ route('services.show',$service->slug) }}">
                                 <i class="fa-solid fa-eye"></i>
                             </a>
-                            <a class="btn btn-primary" href="{{ route('services.edit',$service->id) }}">
+                            <a class="btn btn-primary" href="{{ route('services.edit',$service->slug) }}">
                                 <i class="fa-solid fa-pen-to-square"></i>
                             </a>
                             @csrf

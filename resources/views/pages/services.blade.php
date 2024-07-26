@@ -25,7 +25,7 @@
                         <p class="top_services_description">
                             {!! html_entity_decode($service->description) !!}
                         </p>
-                        <a href="{{ route('services-show', $service->id) }}" class="btn blog_btn mb-3">View</a>
+                        <a href="{{ route('services-show', $service->slug) }}" class="btn blog_btn mb-3">View</a>
                     </div>
                 </div>
             @endforeach
@@ -40,7 +40,7 @@
                         <p class="top_services_description">
                             {!! html_entity_decode($service->description) !!}
                         </p>
-                        <a href="{{ route('services-show', $service->id) }}" class="btn blog_btn mb-3 w-auto">View</a>
+                        <a href="{{ route('services-show', $service->slug) }}" class="btn blog_btn mb-3 w-auto">View</a>
                     </div>
                 @endforeach
             </div>

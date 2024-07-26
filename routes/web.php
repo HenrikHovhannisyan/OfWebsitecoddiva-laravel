@@ -19,7 +19,7 @@ Route::get('/apply-now', [HomeController::class, 'applyNow'])->name('apply-now')
 Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
 Route::get('/blog/{blog}', [HomeController::class, 'blogShow'])->name('blog-show');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
-Route::get('/services/{service}', [HomeController::class, 'servicesShow'])->name('services-show');
+Route::get('/services/{service:slug}', [HomeController::class, 'servicesShow'])->name('services-show');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/refer', [HomeController::class, 'refer'])->name('refer');
 Route::get('/legal', [HomeController::class, 'legal'])->name('legal');
@@ -28,7 +28,6 @@ Route::get('/talent/{talent}', [HomeController::class, 'talentShow'])->name('tal
 Route::post('/send-email', [ContactFormController::class, 'sendEmail'])->name('send-email');
 Route::post('/refer-send-email', [ReferFormController::class, 'sendEmail'])->name('refer-send-email');
 
-
 Auth::routes();
 
 Route::prefix('admin')->group(function () {
@@ -36,7 +35,8 @@ Route::prefix('admin')->group(function () {
     Route::resource('info', InfoController::class);
     Route::resource('models', ModelsController::class);
     Route::resource('blogs', BlogsController::class);
-    Route::resource('services', ServicesController::class);
+    Route::resource('services', ServicesController::class)->parameters(['services' => 'service:slug']);
     Route::resource('faqs', FaqController::class);
     Route::resource('about', AboutController::class);
 });
+

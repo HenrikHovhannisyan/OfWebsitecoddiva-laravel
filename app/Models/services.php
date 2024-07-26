@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class services extends Model
 {
@@ -14,6 +15,18 @@ class services extends Model
         'title',
         'description',
         'text',
+        'slug',
     ];
+
+    public function setTitleAttribute($value)
+    {
+        $this->attributes['title'] = $value;
+        $this->attributes['slug'] = Str::slug($value, '-');
+    }
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 
 }

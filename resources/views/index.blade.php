@@ -173,7 +173,7 @@
                             <p class="model_item_description">
                                 {!! html_entity_decode($service->description) !!}
                             </p>
-                            <a href="{{ route('services-show',$service->id) }}" class="text-light">View</a>
+                            <a href="{{ route('services-show',$service->slug) }}" class="text-light">View</a>
 
                         </div>
                     @endforeach
@@ -192,7 +192,7 @@
                             <p class="model_item_description">
                                 {!! html_entity_decode($service->description) !!}
                             </p>
-                            <a href="{{ route('services-show',$service->id) }}" class="text-light">View</a>
+                            <a href="{{ route('services-show',$service->slug) }}" class="text-light">View</a>
 
                         </div>
                     @endforeach
