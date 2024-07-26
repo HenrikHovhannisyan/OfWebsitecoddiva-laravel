@@ -6,7 +6,7 @@
         <h2 class="content_title mb-0">Our Services</h2>
         <span class="line bottom_line"></span>
         <div class="mt-5">
-            <a class="blog_back" href="{{ route('index') }}">
+            <a class="blog_back" href="{{ route('services') }}">
                 <i class="fa-solid fa-chevron-left"></i>
                 Back
             </a>

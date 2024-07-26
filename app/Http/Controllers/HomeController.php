@@ -127,6 +127,18 @@ class HomeController extends Controller
     }
 
     /**
+     * @return Factory|View
+     */
+    public function services()
+    {
+        $services = services::get();
+        $firstTwoServices = $services->take(2);
+        $remainingServices = $services->slice(2);
+        $info = Info::first();
+        return view('pages.services', compact('info', 'firstTwoServices', 'remainingServices'));
+    }
+
+    /**
      * @param services $service
      * @return Factory|View
      */

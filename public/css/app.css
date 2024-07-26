@@ -956,9 +956,29 @@ form {
     line-height: 1.5em;
 }
 
+.top_services p:empty,
+.top_services p:nth-of-type(4),
 .model_item p:empty,
 .model_item p:nth-of-type(4) {
     display: none;
+}
+
+.top_services p {
+    font-family: Alice, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.top_services_title {
+    font-family: Alice, serif !important;
+    font-size: 56px !important;
+    font-weight: 400 !important;
+    line-height: 64.01px !important;
+    letter-spacing: 0.04em !important;
+    text-align: left !important;
 }
 /* End Services item page */
 

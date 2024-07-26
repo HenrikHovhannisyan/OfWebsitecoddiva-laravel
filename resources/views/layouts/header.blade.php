@@ -46,6 +46,8 @@
                 <div class="list-group menu_list">
                     <a href="{{ route('index') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('index') }}" aria-current="true">HOME</a>
+                    <a href="{{ route('services') }}"
+                       class="list-group-item list-group-item-action {{ isActiveRoute('services') }}">SERVICES</a>
                     <a href="{{ route('talents') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('talents') }}">TALENTS</a>
                     <a href="{{ route('about') }}"
@@ -58,7 +60,7 @@
                        class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                 </div>
             </div>
-            @if(isActiveRoute('index') || isActiveRoute('services-show'))
+            @if(isActiveRoute('index') || isActiveRoute('services') || isActiveRoute('services-show'))
                 <div class="home" style="background-image: url('./images/menu/HOME.png')">
                     @elseif(isActiveRoute('contact'))
                         <div class="home" style="background-image: url('./images/menu/CONTACT.png')">

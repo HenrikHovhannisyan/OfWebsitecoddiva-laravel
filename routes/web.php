@@ -18,6 +18,7 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/apply-now', [HomeController::class, 'applyNow'])->name('apply-now');
 Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
 Route::get('/blog/{blog}', [HomeController::class, 'blogShow'])->name('blog-show');
+Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/services/{service}', [HomeController::class, 'servicesShow'])->name('services-show');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/refer', [HomeController::class, 'refer'])->name('refer');
