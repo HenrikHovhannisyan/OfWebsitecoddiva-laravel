@@ -15,6 +15,20 @@
         <div class="row mt-3">
             <div class="col-12">
                 <div class="form-group">
+                    <strong class="text-danger">Meta Title:</strong><br>
+                    <span class="">{{ $service->meta_title }}</span>
+                </div>
+            </div>
+            <hr>
+            <div class="col-12">
+                <div class="form-group">
+                    <strong class="text-danger">Meta Title:</strong><br>
+                    <span class="">{{ $service->meta_description }}</span>
+                </div>
+            </div>
+            <hr>
+            <div class="col-12">
+                <div class="form-group">
                     <strong class="text-danger">Title:</strong><br>
                     <span class="">{{ $service->title }}</span>
                 </div>

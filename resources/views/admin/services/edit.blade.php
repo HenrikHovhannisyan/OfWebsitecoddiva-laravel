@@ -32,23 +32,21 @@
                         <div class="form-group">
                             <strong>Blog Title:</strong>
                             <input type="text" name="title" value="{{ $service->title }}" class="form-control"
-                                   placeholder="Name">
+                                   placeholder="Blog Title">
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
                             <strong>Description:</strong><br>
-                            <textarea name="description" id="blog_description" class="form-control" placeholder="Description" id="">
-                                {{ $service->description }}
-                            </textarea>
+                            <textarea name="description" id="blog_description" class="form-control"
+                                      placeholder="Description" id="">{{ $service->description }}</textarea>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
                             <strong>Text:</strong><br>
-                            <textarea name="text" id="description" class="form-control" placeholder="Text" id="">
-                                {{ $service->text }}
-                            </textarea>
+                            <textarea name="text" id="description" class="form-control" placeholder="Text"
+                                      id="">{{ $service->text }}</textarea>
                         </div>
                     </div>
                     <hr class="mt-3">
@@ -58,7 +56,27 @@
                             <strong>Image:</strong>
                             <div class="d-flex align-items-center">
                                 <input type="file" name="image" class="form-control" placeholder="Image">
-                                <img src="{{asset('upload/services/'.$service->image)}}" width="100px" class="img-fluid">
+                                <img src="{{asset('upload/services/'.$service->image)}}" width="100px"
+                                     class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="mt-3">
+
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <strong>Meta Title:</strong>
+                                <input type="text" name="meta_title" value="{{ $service->meta_title }}"
+                                       class="form-control" placeholder="Meta Title">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <strong>Meta Description:</strong>
+                                <textarea class="form-control" name="meta_description"
+                                          placeholder="Meta Description">{{ $service->meta_description }}</textarea>
                             </div>
                         </div>
                     </div>

@@ -16,6 +16,8 @@ class services extends Model
         'description',
         'text',
         'slug',
+        'meta_title',
+        'meta_description',
     ];
 
     public function setTitleAttribute($value)

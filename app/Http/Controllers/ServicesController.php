@@ -46,6 +46,8 @@ class ServicesController extends Controller
             'title' => 'required',
             'description' => 'required',
             'text' => 'required',
+            'meta_title' => 'required',
+            'meta_description' => 'required',
         ]);
 
         $input = $request->all();
@@ -94,6 +96,14 @@ class ServicesController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'text' => 'required',
+            'meta_title' => 'required',
+            'meta_description' => 'required',
+        ]);
+
         $service = services::findOrFail($id);
         $input = $request->all();
 

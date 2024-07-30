@@ -53,6 +53,22 @@
                             <input type="file" name="image" class="form-control" placeholder="Image">
                         </div>
                     </div>
+                    <hr class="mt-3">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <strong>Meta Title:</strong>
+                                <input type="text" name="meta_title" class="form-control" placeholder="Meta Title">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <strong>Meta Description:</strong>
+                                <textarea class="form-control" name="meta_description" placeholder="Meta Description">
+                                </textarea>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-12 text-center mt-3">
                         <button type="submit" class="btn btn-success">Add</button>
                     </div>

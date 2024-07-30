@@ -17,8 +17,11 @@ return new class extends Migration
             $table->id();
             $table->string('image');
             $table->string('title');
+            $table->string('slug')->unique();
             $table->text('description');
             $table->text('text');
+            $table->string('meta_title');
+            $table->text('meta_description');
             $table->timestamps();
         });
     }
