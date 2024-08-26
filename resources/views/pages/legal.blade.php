@@ -1,3 +1,7 @@
+@section('title')
+    Legal |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

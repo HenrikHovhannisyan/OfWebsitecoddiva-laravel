@@ -1,3 +1,7 @@
+@section('title')
+    Apply now |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

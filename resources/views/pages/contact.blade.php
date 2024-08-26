@@ -1,3 +1,7 @@
+@section('title')
+    Contact us |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

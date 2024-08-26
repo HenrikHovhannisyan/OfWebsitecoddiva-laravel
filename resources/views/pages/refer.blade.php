@@ -1,3 +1,7 @@
+@section('title')
+    Refer |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

@@ -1,3 +1,7 @@
+@section('title')
+    Our services |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

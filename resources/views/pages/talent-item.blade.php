@@ -1,3 +1,7 @@
+@section('title')
+    {{$talent->name}} |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

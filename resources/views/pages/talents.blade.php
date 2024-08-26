@@ -1,3 +1,7 @@
+@section('title')
+    Our talents |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

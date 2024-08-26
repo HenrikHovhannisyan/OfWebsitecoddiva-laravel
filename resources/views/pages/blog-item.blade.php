@@ -1,3 +1,7 @@
+@section('title')
+    {{$blog->blog_title}} |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')

@@ -1,3 +1,7 @@
+@section('title')
+    Home |
+@endsection
+
 @extends('layouts.header')
 
 @section('content')
