@@ -1,8 +1,9 @@
 @section('title')
-    Home |
+    Best Onlyfans Management Company |
 @endsection
 
 @extends('layouts.header')
+@section('meta_description')Discover the best OnlyFans management company to boost your earnings, streamline operations, and elevate your content strategy effortlessly.@endsection
 
 @section('content')
     <div class="container ps-0 pe-0">
