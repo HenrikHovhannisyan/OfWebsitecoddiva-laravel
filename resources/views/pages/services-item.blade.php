@@ -1,9 +1,8 @@
 @section('title')
-    {{ $service->title }} |
+    {{ $service->meta_title }} |
 @endsection
 
 @extends('layouts.header')
-@section('meta_title'){{ $service->meta_title }}@endsection
 @section('meta_description'){{ $service->meta_description }}@endsection
 
 @section('content')
