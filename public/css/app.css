@@ -369,6 +369,33 @@ form {
     }
 }
 
+#owl-carousel-info .owl-nav {
+    gap: 55px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+}
+#owl-carousel-info .owl-dots {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -53px;
+}
+
+#owl-carousel-info .owl-dot {
+    background: #ddd;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#owl-carousel-info .owl-dot.active {
+    background: #333;
+}
+
 /* End Gallery */
 
 /* Start About page */
