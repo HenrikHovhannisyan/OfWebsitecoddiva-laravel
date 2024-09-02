@@ -369,32 +369,47 @@ form {
     }
 }
 
-#owl-carousel-info .owl-nav {
-    gap: 55px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 9;
-}
-#owl-carousel-info .owl-dots {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -53px;
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
 }
 
-#owl-carousel-info .owl-dot {
-    background: #ddd;
-    width: 12px;
-    height: 12px;
-    margin: 0 5px;
-    border-radius: 50%;
-    cursor: pointer;
+.parent .title {
+    margin-bottom: 0;
+    font-family: Alice, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.57px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    margin-left: 24px;
 }
 
-#owl-carousel-info .owl-dot.active {
-    background: #333;
+.parent .text {
+    margin-bottom: 0;
+    font-family: Alice, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFFFFFCC;
 }
+
+.parent > div {
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 2;
+    max-width: 433px;
+}
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
 
 /* End Gallery */
 
@@ -1055,6 +1070,20 @@ form {
         line-height: 18px;
     }
 
+    .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .div1, .div2, .div3 {
+        grid-area: unset;
+        max-width: unset;
+    }
+
+    .div1, .div2, .div3 {
+        padding: 20px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1122,9 +1151,33 @@ form {
     #talents_banner_content {
         position: unset;
     }
+    .parent > div {
+        padding: 15px;
+    }
+
+    .parent .title {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .parent .text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 350px) {
+    .parent > div {
+        padding: 10px;
+    }
+
+    .parent .title {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .parent .text {
+        font-size: 11px;
+    }
 
 }
 

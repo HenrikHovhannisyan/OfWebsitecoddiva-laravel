@@ -26,35 +26,6 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
     });
 });
 
-$('#owl-carousel-info').owlCarousel({
-    loop: true,
-    nav: true,
-    dots: true,
-    navText: [
-        '<button type="button" class="btn m-2"><i class="fa-solid fa-chevron-left text-white"></i></button>',
-        '<button type="button" class="btn m-2"><i class="fa-solid fa-chevron-right text-white"></i></button>'
-    ],
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 5000,
-    autoplayHoverPause: true,
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items: 1,
-        },
-        600: {
-            items: 1,
-        },
-        1000: {
-            items: 1,
-        },
-        1200: {
-            items: 1,
-        }
-    }
-});
-
 $('#owl-carousel-testimonials').owlCarousel({
     loop: true,
     nav: true,

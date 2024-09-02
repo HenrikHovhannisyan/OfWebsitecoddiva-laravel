@@ -162,80 +162,70 @@
                     </div>
                 </div>
                 <div class="container-fluid mt-5">
-                    <div class="owl-carousel owl-theme owl-loaded" id="owl-carousel-info">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage">
-                                <div class="owl-item">
-                                    <div class="d-block d-lg-flex align-items-center">
-                                        <img src="{{ asset('images/info_banner/1.png') }}" class="home_owl_img m-auto" alt="">
-                                        <div class="ms-0 ms-lg-5">
-                                            <p class="home_owl_img_title">
-                                                Ronald Benore: Leading the Charge at XXXTC<br>
-                                                Management to Boost OnlyFans Success
-                                            </p>
-                                            <p class="home_owl_img_text mb-0">
-                                                XXXTC Management is headed by its owner Ronald Benore, who is at the
-                                                helm of an OnlyFans management business. Ronald is one of the
-                                                experienced OnlyFans managers who have already established himself as a
-                                                specialist who can help creators in the work within the given platform.
-                                                He is the owner of his own company which focuses on providing custom
-                                                management solutions like content planning, readers’ interaction, and
-                                                financing. When it comes to OnlyFans, it has been under his leadership
-                                                that XXXTC Management has become that one stop store for every content
-                                                creator who wants to expand the reach and earnings of their page. With
-                                                professionalism and keeping in touch with all clients, Ronald is in a
-                                                position to assist all his clients to focus on content production as he
-                                                handles all other aspects making everyone a winner.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item">
-                                    <div class="d-block d-lg-flex align-items-center">
-                                        <img src="{{ asset('images/info_banner/2.png') }}" class="home_owl_img m-auto" alt="">
-                                        <div class="ms-0 ms-lg-5">
-                                            <p class="home_owl_img_title">
-                                                XXXTTC Management: <br>
-                                                Best OnlyFans Management Company
-                                            </p>
-                                            <p class="home_owl_img_text mb-0">
-                                                At xxxtcmanagement, we know the peculiarities related to OnlyFans
-                                                account management and its development into a rather successful one. Our
-                                                company’s main goal is to become the leading best OnlyFans management
-                                                company with our focus on providing only the highest-quality OnlyFans
-                                                profile management services for our clients. Our managers who are
-                                                experienced OnlyFans manager will be to help you with all aspects
-                                                regarding your OnlyFans account, content planning and fan interaction.
-                                                At the same time, choosing xxxtcmanagement, you do not just invite
-                                                OnlyFans manager, but a team that will work for your success.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item">
-                                    <div class="d-block d-lg-flex align-items-center">
-                                        <img src="{{ asset('images/info_banner/3.png') }}" class="home_owl_img m-auto" alt="">
-                                        <div class="ms-0 ms-lg-5">
-                                            <p class="home_owl_img_title">
-                                                XXXTTC Management: <br>
-                                                Make Onlyfans Management Contract
-                                            </p>
-                                            <p class="home_owl_img_text mb-0">
-                                                We are glad to be the best OnlyFans management company since we work
-                                                closely to meet your needs for OnlyFans management. Whether you are a
-                                                beginner at Onlyfans or an experienced creator who wants to improve your
-                                                account, our team will help to manage OnlyFans account like true
-                                                professionals! Each relationship is built on an open and strictly to the
-                                                point OnlyFans management contract, non-negotiable terms that are
-                                                mutually beneficial. At xxxtcmanagement, we take care of OnlyFans
-                                                management for you so that you can only concentrate on providing your
-                                                fans the content they appreciate. Open a company with us today and feel
-                                                the difference of transacting business with the best of the best.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="parent">
+                        <div class="div1">
+                            <div class="d-flex align-items-center gap-1 mb-5">
+                                <img src="{{ asset('images/info_banner/1.png') }}" width="80" height="80"
+                                     alt="Ronald Benore: Leading the Charge at XXXTC Management to Boost OnlyFans Success">
+                                <p class="title">
+                                    Ronald Benore: Leading the Charge at XXXTC Management to Boost OnlyFans Success
+                                </p>
                             </div>
+                            <p class="text mb-0">
+                                XXXTC Management is headed by its owner Ronald Benore, who is at the
+                                helm of an OnlyFans management business. Ronald is one of the
+                                experienced OnlyFans managers who have already established himself as a
+                                specialist who can help creators in the work within the given platform.
+                                He is the owner of his own company which focuses on providing custom
+                                management solutions like content planning, readers’ interaction, and
+                                financing. When it comes to OnlyFans, it has been under his leadership
+                                that XXXTC Management has become that one stop store for every content
+                                creator who wants to expand the reach and earnings of their page. With
+                                professionalism and keeping in touch with all clients, Ronald is in a
+                                position to assist all his clients to focus on content production as he
+                                handles all other aspects making everyone a winner.
+                            </p>
+                        </div>
+                        <div class="div2">
+                            <div class="d-flex align-items-center gap-1 mb-5">
+                                <img src="{{ asset('images/info_banner/2.png') }}" width="80" height="80"
+                                     alt="XXXTTC Management: Best OnlyFans Management Company">
+                                <p class="title">
+                                    XXXTTC Management: <br> Best OnlyFans Management Company
+                                </p>
+                            </div>
+                            <p class="text">
+                                At xxxtcmanagement, we know the peculiarities related to OnlyFans
+                                account management and its development into a rather successful one. Our
+                                company’s main goal is to become the leading best OnlyFans management
+                                company with our focus on providing only the highest-quality OnlyFans
+                                profile management services for our clients. Our managers who are
+                                experienced OnlyFans manager will be to help you with all aspects
+                                regarding your OnlyFans account, content planning and fan interaction.
+                                At the same time, choosing xxxtcmanagement, you do not just invite
+                                OnlyFans manager, but a team that will work for your success.
+                            </p>
+                        </div>
+                        <div class="div3">
+                            <div class="d-flex align-items-center gap-1 mb-5">
+                                <img src="{{ asset('images/info_banner/3.png') }}" width="80" height="80"
+                                     alt="XXXTTC Management: Make Onlyfans Management Contract">
+                                <p class="title">
+                                    XXXTTC Management: <br> Make Onlyfans Management Contract
+                                </p>
+                            </div>
+                            <p class="text">
+                                We are glad to be the best OnlyFans management company since we work
+                                closely to meet your needs for OnlyFans management. Whether you are a
+                                beginner at Onlyfans or an experienced creator who wants to improve your
+                                account, our team will help to manage OnlyFans account like true
+                                professionals! Each relationship is built on an open and strictly to the
+                                point OnlyFans management contract, non-negotiable terms that are
+                                mutually beneficial. At xxxtcmanagement, we take care of OnlyFans
+                                management for you so that you can only concentrate on providing your
+                                fans the content they appreciate. Open a company with us today and feel
+                                the difference of transacting business with the best of the best.
+                            </p>
                         </div>
                     </div>
                 </div>
