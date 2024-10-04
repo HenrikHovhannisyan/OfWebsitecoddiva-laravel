@@ -272,7 +272,7 @@
                 </div>
             </div>
         </section>
-        <section data-aos="fade-right" id="home_testimonials">
+        {{--<section data-aos="fade-right" id="home_testimonials">
             <div class="container-fluid">
                 <p id="model_title">
                     our testimonials
@@ -371,7 +371,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>--}}
         <section id="blog">
             <h2 class="content_title mb-0">BLOG</h2>
             <span class="line bottom_line"></span>

@@ -44,9 +44,6 @@ class InfoController extends Controller
             'facebook' => 'string|max:255',
             'instagram' => 'string|max:255',
             'pinterest' => 'string|max:255',
-            'contact' => 'max:2550',
-            'email' => 'email|max:255',
-            'phone' => 'string|max:20',
             'video' => 'string|max:20',
         ]);
 
@@ -87,9 +84,6 @@ class InfoController extends Controller
     public function update(UpdateInfoRequest $request, Info $info)
     {
         $request->validate([
-            'contact' => 'max:2550',
-            'email' => 'email|max:255',
-            'phone' => 'string|max:20',
             'video' => 'string|max:20',
         ]);
 

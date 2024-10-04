@@ -21,14 +21,20 @@
                     <img src="{{ asset('images/contact_us.png') }}" class="img-fluid" alt="about">
                 </div>
                 <div class="mt-5">
-                    <p class="text-white mb-0">Contact</p>
-                    <p class="about_text">
-                        {{$info->contact}}
-                    </p>
-                    <p class="text-white mb-0">Phone</p>
-                    <a href="tel:{{$info->phone}}" class="about_text">{{$info->phone}}</a>
-                    <p class="text-white mb-0">Email</p>
-                    <a href="mailto:{{$info->email}}" class="about_text">{{$info->email}}</a>
+                    @if($info->contact)
+                        <p class="text-white mb-0">Contact</p>
+                        <p class="about_text">
+                            {{$info->contact}}
+                        </p>
+                    @endif
+                    @if($info->phone)
+                        <p class="text-white mb-0">Phone</p>
+                        <a href="tel:{{$info->phone}}" class="about_text">{{$info->phone}}</a>
+                    @endif
+                    @if($info->email)
+                        <p class="text-white mb-0">Email</p>
+                        <a href="mailto:{{$info->email}}" class="about_text">{{$info->email}}</a>
+                    @endif
                 </div>
             </div>
             <div class="col-12 col-md-6">
@@ -36,7 +42,8 @@
                     @csrf
                     <div class="form-group">
                         <label for="name">Full name *</label>
-                        <input type="text" class="form-control contact_form_input" id="name" name="name" placeholder="John David"
+                        <input type="text" class="form-control contact_form_input" id="name" name="name"
+                               placeholder="John David"
                                required>
                     </div>
                     <div class="form-group">

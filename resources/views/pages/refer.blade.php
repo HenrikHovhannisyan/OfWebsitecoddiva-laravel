@@ -18,9 +18,6 @@
         <div class="row mt-5">
             <div class="col-12 col-lg-6">
                 <p class="refer_title">Referral Program</p>
-                <p class="refer_text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
-                </p>
                 <form action="{{ route('refer-send-email') }}" method="post">
                     @csrf
                     <p class="refer_form_title">Your Details</p>

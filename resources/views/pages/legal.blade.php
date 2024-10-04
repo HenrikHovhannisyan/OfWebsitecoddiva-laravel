@@ -69,7 +69,7 @@
                 <p class="blog_item_title">Governing Law</p>
                 <p class="blog_item_text mb-5">
                     These terms and conditions shall be governed by and construed in accordance with the laws of
-                    Victoria, Australia. Any legal actions arising from or related to this invoice shall be
+                    State of Michigan, United States. Any legal actions arising from or related to this invoice shall be
                     subject to the exclusive jurisdiction of the State of Michigan, United States of America. By
                     making the payment mentioned on the invoice, the customer acknowledges and agrees to the
                     terms and conditions stated herein.
