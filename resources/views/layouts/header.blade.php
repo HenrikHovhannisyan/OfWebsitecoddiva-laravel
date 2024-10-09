@@ -91,6 +91,7 @@
                                                             <button type="button" class="btn btn-dark m-3" id="bars">
                                                                 <i class="fa-solid fa-bars"></i>
                                                             </button>
+                                                            @include('vendor.modal')
                                                             @yield('content')
                                                         </div>
                                                 </div>

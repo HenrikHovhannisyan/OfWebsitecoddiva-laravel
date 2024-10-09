@@ -17,7 +17,9 @@
                     Interested in joining XXXTC Model Management? Either refer talent or apply now! We offer a free 15-minute
                     consultation to help you learn more about our services and how to get started.
                 </p>
-                <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn">APPLY NOW</a>
+                <button type="button" class="btn btn-light talents_banner_btn mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    APPLY NOW
+                </button>
             </div>
         </section>
         <section data-aos="fade-right" id="home_info">
@@ -81,8 +83,9 @@
                     <p class="apply_title">
                         “How To Make 1K Per Day With OF In The Next 48 Hours Or Less Starting Today...Guaranteed!”
                     </p>
-                    <a href="{{ $info->facebook }}" target="_blank" class="btn btn-light talents_banner_btn mb-3">APPLY
-                        NOW</a>
+                    <button type="button" class="btn btn-light talents_banner_btn mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        APPLY NOW
+                    </button>
                 </div>
                 <iframe width="100%" height="100%"
                         src="https://www.youtube.com/embed/{{$info->video}}?si=Wl6aUbPRyiPO5VGE"

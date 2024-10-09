@@ -28,8 +28,9 @@
                                             full
                                             earning potential.
                                         </p>
-                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
-                                            now</a>
+                                        <button type="button" class="btn btn-light talents_banner_btn mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            APPLY NOW
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -51,8 +52,9 @@
                                             full
                                             earning potential.
                                         </p>
-                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
-                                            now</a>
+                                        <button type="button" class="btn btn-light talents_banner_btn mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            APPLY NOW
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -73,8 +75,9 @@
                                             full
                                             earning potential.
                                         </p>
-                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
-                                            now</a>
+                                        <button type="button" class="btn btn-light talents_banner_btn mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            APPLY NOW
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -95,8 +98,9 @@
                                             full
                                             earning potential.
                                         </p>
-                                        <a href="{{ $info->facebook }}" target="_blank" class="btn banner_btn">Apply
-                                            now</a>
+                                        <button type="button" class="btn btn-light talents_banner_btn mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            APPLY NOW
+                                        </button>
                                     </div>
                                 </div>
                             </div>
