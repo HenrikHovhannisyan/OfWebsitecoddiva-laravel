@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="1qc08efEfDboTcCxOXlzkAvecW5I4MMab8CDxkfP4Ug" />
+    <meta name="google-site-verification" content="1qc08efEfDboTcCxOXlzkAvecW5I4MMab8CDxkfP4Ug"/>
     <meta name="description" content="@yield('meta_description')">
 
     <!-- CSRF Token -->
@@ -35,6 +35,7 @@
             integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script defer src="{{ asset('/js/app.js') }}?v=<?php echo filemtime(public_path('js/app.js')); ?>"></script>
 </head>
 <body>
@@ -56,8 +57,7 @@
                        class="list-group-item list-group-item-action {{ isActiveRoute('about') }}">ABOUT US</a>
                     <a href="{{ route('apply-now') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('apply-now') }}">APPLY NOW</a>
-                    <a href="{{ route('refer') }}"
-                       class="list-group-item list-group-item-action {{ isActiveRoute('refer') }}">REFER</a>
+                    {{--                    <a href="{{ route('refer') }}" class="list-group-item list-group-item-action {{ isActiveRoute('refer') }}">REFER</a>--}}
                     <a href="{{ route('blog') }}"
                        class="list-group-item list-group-item-action {{ isActiveRoute('blog') }}">BLOG</a>
                 </div>
@@ -92,6 +92,7 @@
                                                                 <i class="fa-solid fa-bars"></i>
                                                             </button>
                                                             @include('vendor.modal')
+                                                            @include('vendor.successModal')
                                                             @yield('content')
                                                         </div>
                                                 </div>

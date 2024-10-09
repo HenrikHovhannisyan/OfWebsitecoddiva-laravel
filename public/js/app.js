@@ -100,3 +100,23 @@ $("#bars").click(function(){
     $("#menu").toggleClass("d-none");
     $("#content").toggleClass("w-100");
 });
+
+
+(function () {
+    emailjs.init("He3-lzMnCwbKWHwLg");
+})();
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_v8r75hd', 'template_36is983', this)
+        .then(function() {
+            let modal = new bootstrap.Modal(document.getElementById('successModal'), {
+                keyboard: false
+            });
+            modal.show();
+            document.getElementById('contact-form').reset();
+        }, function(error) {
+            console.log('FAILED...', error);
+        });
+});

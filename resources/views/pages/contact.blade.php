@@ -38,8 +38,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <form action="{{ route('send-email') }}" method="post">
-                    @csrf
+                <form id="contact-form" method="post">
                     <div class="form-group">
                         <label for="name">Full name *</label>
                         <input type="text" class="form-control contact_form_input" id="name" name="name"
